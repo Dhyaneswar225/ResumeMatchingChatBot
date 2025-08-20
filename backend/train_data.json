@@ -1,0 +1,4091 @@
+[
+  {
+    "text": "Strong background in Python, R, and MATLAB for data analysis.",
+    "entities": [
+      [22, 28, "SKILL"],
+      [30, 31, "SKILL"],
+      [37, 43, "SKILL"]
+    ]
+  },
+  {
+    "text": "Certified in Salesforce and experienced with CRM systems.",
+    "entities": [
+      [13, 23, "SKILL"],
+      [46, 49, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in Adobe Photoshop, Illustrator, and InDesign.",
+    "entities": [
+      [14, 29, "SKILL"],
+      [31, 42, "SKILL"],
+      [48, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in network security protocols including SSL and TLS.",
+    "entities": [
+      [10, 35, "SKILL"],
+      [47, 50, "SKILL"],
+      [55, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in DevOps practices with Terraform and Ansible.",
+    "entities": [
+      [11, 17, "SKILL"],
+      [33, 42, "SKILL"],
+      [47, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with BigQuery, Tableau, and Power BI for analytics.",
+    "entities": [
+      [16, 24, "SKILL"],
+      [26, 33, "SKILL"],
+      [39, 47, "SKILL"]
+    ]
+  },
+  {
+    "text": "Competent in Ruby on Rails and Django web frameworks.",
+    "entities": [
+      [13, 26, "SKILL"],
+      [31, 37, "SKILL"]
+    ]
+  },
+  {
+    "text": "Hands-on experience with Redis, RabbitMQ, and Apache Kafka.",
+    "entities": [
+      [25, 30, "SKILL"],
+      [32, 40, "SKILL"],
+      [46, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in iOS development using Swift and Objective-C.",
+    "entities": [
+      [14, 17, "SKILL"],
+      [36, 41, "SKILL"],
+      [46, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of blockchain technology and smart contracts.",
+    "entities": [
+      [13, 34, "SKILL"],
+      [39, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert with Elasticsearch, Logstash, and Kibana stack.",
+    "entities": [
+      [12, 25, "SKILL"],
+      [27, 35, "SKILL"],
+      [41, 47, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experienced in Agile methodologies and Scrum framework.",
+    "entities": [
+      [15, 33, "SKILL"],
+      [38, 43, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in Node.js, Express.js, and MongoDB development.",
+    "entities": [
+      [11, 18, "SKILL"],
+      [20, 31, "SKILL"],
+      [37, 44, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with SAP modules including FI/CO and MM.",
+    "entities": [
+      [16, 19, "SKILL"],
+      [38, 43, "SKILL"],
+      [48, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in computer vision using OpenCV and YOLO.",
+    "entities": [
+      [14, 29, "SKILL"],
+      [36, 42, "SKILL"],
+      [47, 51, "SKILL"]
+    ]
+  },
+  {
+    "text": "Well-versed in Pandas, NumPy, and Scikit-learn libraries.",
+    "entities": [
+      [15, 21, "SKILL"],
+      [23, 28, "SKILL"],
+      [34, 46, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expertise in Oracle Database and PL/SQL programming.",
+    "entities": [
+      [12, 26, "SKILL"],
+      [31, 37, "SKILL"]
+    ]
+  },
+  {
+    "text": "Familiar with Hadoop ecosystem including Spark and Hive.",
+    "entities": [
+      [14, 20, "SKILL"],
+      [42, 47, "SKILL"],
+      [52, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in UI/UX design tools like Figma and Sketch.",
+    "entities": [
+      [11, 16, "SKILL"],
+      [35, 40, "SKILL"],
+      [45, 51, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in network administration and Cisco routers.",
+    "entities": [
+      [14, 35, "SKILL"],
+      [40, 45, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Unity game engine and C# scripting.",
+    "entities": [
+      [16, 21, "SKILL"],
+      [39, 41, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in financial modeling using Excel and VBA.",
+    "entities": [
+      [10, 27, "SKILL"],
+      [34, 39, "SKILL"],
+      [44, 47, "SKILL"]
+    ]
+  },
+  {
+    "text": "Hands-on with Flutter and Dart for mobile app development.",
+    "entities": [
+      [14, 21, "SKILL"],
+      [26, 30, "SKILL"]
+    ]
+  },
+  {
+    "text": "Competent in penetration testing with Metasploit and Burp Suite.",
+    "entities": [
+      [13, 31, "SKILL"],
+      [37, 47, "SKILL"],
+      [52, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in Apache Spark, Kafka, and Airflow for data pipelines.",
+    "entities": [
+      [14, 26, "SKILL"],
+      [28, 33, "SKILL"],
+      [39, 46, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Selenium automation and pytest framework.",
+    "entities": [
+      [16, 24, "SKILL"],
+      [40, 46, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in Go programming and microservices architecture.",
+    "entities": [
+      [11, 13, "SKILL"],
+      [26, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of GraphQL APIs and Apollo Client integration.",
+    "entities": [
+      [13, 20, "SKILL"],
+      [31, 44, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert with VMware vSphere and Hyper-V virtualization.",
+    "entities": [
+      [12, 26, "SKILL"],
+      [31, 38, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in statistical analysis using SPSS and SAS.",
+    "entities": [
+      [14, 33, "SKILL"],
+      [40, 44, "SKILL"],
+      [49, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in containerization with Docker Swarm and Kubernetes.",
+    "entities": [
+      [14, 30, "SKILL"],
+      [36, 48, "SKILL"],
+      [53, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in natural language processing and NLTK library.",
+    "entities": [
+      [11, 40, "SKILL"],
+      [45, 49, "SKILL"]
+    ]
+  },
+  {
+    "text": "Hands-on with Redis caching and Memcached optimization.",
+    "entities": [
+      [14, 19, "SKILL"],
+      [32, 41, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in Rust programming and WebAssembly development.",
+    "entities": [
+      [14, 18, "SKILL"],
+      [31, 42, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in cybersecurity frameworks like NIST and ISO 27001.",
+    "entities": [
+      [10, 33, "SKILL"],
+      [39, 43, "SKILL"],
+      [48, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with event-driven architecture and Apache Pulsar.",
+    "entities": [
+      [16, 41, "SKILL"],
+      [46, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in Kotlin development for Android applications.",
+    "entities": [
+      [11, 17, "SKILL"],
+      [33, 40, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with NoSQL databases like Cassandra and DynamoDB.",
+    "entities": [
+      [16, 21, "SKILL"],
+      [38, 47, "SKILL"],
+      [52, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of load balancing with HAProxy and Nginx.",
+    "entities": [
+      [13, 27, "SKILL"],
+      [33, 40, "SKILL"],
+      [45, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in time series analysis using InfluxDB and Grafana.",
+    "entities": [
+      [10, 30, "SKILL"],
+      [37, 45, "SKILL"],
+      [50, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with RPA tools like UiPath and Blue Prism.",
+    "entities": [
+      [16, 19, "SKILL"],
+      [31, 37, "SKILL"],
+      [42, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in serverless computing with AWS Lambda and Azure Functions.",
+    "entities": [
+      [11, 31, "SKILL"],
+      [37, 47, "SKILL"],
+      [52, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in Apache Beam and Google Dataflow for batch processing.",
+    "entities": [
+      [14, 25, "SKILL"],
+      [30, 45, "SKILL"]
+    ]
+  },
+  {
+    "text": "Hands-on experience with monitoring tools like Prometheus and Splunk.",
+    "entities": [
+      [47, 57, "SKILL"],
+      [62, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in distributed systems design and consensus algorithms.",
+    "entities": [
+      [10, 36, "SKILL"],
+      [41, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with ETL processes using Talend and Informatica.",
+    "entities": [
+      [16, 19, "SKILL"],
+      [36, 42, "SKILL"],
+      [47, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in API Gateway management with Kong and Apigee.",
+    "entities": [
+      [11, 22, "SKILL"],
+      [39, 43, "SKILL"],
+      [48, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in edge computing and IoT device management.",
+    "entities": [
+      [14, 28, "SKILL"],
+      [33, 36, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of quantum computing concepts and Qiskit framework.",
+    "entities": [
+      [13, 39, "SKILL"],
+      [44, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert with version control systems including Git and SVN.",
+    "entities": [
+      [12, 35, "SKILL"],
+      [46, 49, "SKILL"],
+      [54, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in progressive web apps using PWA technologies.",
+    "entities": [
+      [14, 33, "SKILL"],
+      [40, 43, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experienced in Python, R, and SQL for data analysis.",
+    "entities": [
+      [15, 21, "SKILL"],
+      [23, 24, "SKILL"],
+      [30, 33, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in machine learning, deep learning, and AI.",
+    "entities": [
+      [10, 26, "SKILL"],
+      [28, 41, "SKILL"],
+      [47, 49, "SKILL"]
+    ]
+  },
+  {
+    "text": "Used TensorFlow and PyTorch for building neural networks.",
+    "entities": [
+      [5, 15, "SKILL"],
+      [20, 27, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with data visualization tools like Tableau and Power BI.",
+    "entities": [
+      [17, 36, "SKILL"],
+      [42, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Familiar with big data technologies such as Hadoop and Spark.",
+    "entities": [
+      [19, 34, "SKILL"],
+      [43, 49, "SKILL"],
+      [54, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in statistics, hypothesis testing, and regression analysis.",
+    "entities": [
+      [15, 25, "SKILL"],
+      [27, 45, "SKILL"],
+      [51, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Hands-on experience with Jupyter Notebook and Google Colab.",
+    "entities": [
+      [21, 36, "SKILL"],
+      [41, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in data cleaning, feature engineering, and model evaluation.",
+    "entities": [
+      [10, 22, "SKILL"],
+      [24, 42, "SKILL"],
+      [48, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Used Scikit-learn for building machine learning models.",
+    "entities": [
+      [5, 17, "SKILL"],
+      [32, 48, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with natural language processing and computer vision.",
+    "entities": [
+      [17, 44, "SKILL"],
+      [49, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Familiarity with SQL and NoSQL databases for data storage.",
+    "entities": [
+      [13, 16, "SKILL"],
+      [21, 26, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in cloud platforms like AWS and Google Cloud for data projects.",
+    "entities": [
+      [15, 18, "SKILL"],
+      [33, 45, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in using Docker containers for deploying ML models.",
+    "entities": [
+      [18, 24, "SKILL"],
+      [41, 43, "SKILL"],
+      [44, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of time series analysis and forecasting techniques.",
+    "entities": [
+      [11, 33, "SKILL"],
+      [38, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Used Pandas and NumPy libraries for data manipulation.",
+    "entities": [
+      [5, 11, "SKILL"],
+      [16, 21, "SKILL"]
+    ]
+  },
+   {
+    "text": "Experienced in Java, Spring Boot, and Hibernate frameworks.",
+    "entities": [
+      [15, 19, "SKILL"],
+      [21, 32, "SKILL"],
+      [38, 47, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Java 8, Maven, and Jenkins for CI/CD.",
+    "entities": [
+      [16, 20, "SKILL"],
+      [22, 27, "SKILL"],
+      [33, 40, "SKILL"]
+    ]
+  },
+  {
+    "text": "Used REST APIs and Microservices architecture extensively.",
+    "entities": [
+      [5, 13, "SKILL"],
+      [18, 29, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong knowledge of multithreading and concurrency in Java.",
+    "entities": [
+      [21, 33, "SKILL"],
+      [38, 44, "SKILL"],
+      [48, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Familiar with JUnit and Mockito for unit testing.",
+    "entities": [
+      [13, 18, "SKILL"],
+      [23, 30, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experienced in SQL and NoSQL databases like MySQL and MongoDB.",
+    "entities": [
+      [15, 18, "SKILL"],
+      [23, 28, "SKILL"],
+      [41, 46, "SKILL"],
+      [51, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of design patterns such as Singleton and Factory.",
+    "entities": [
+      [12, 26, "SKILL"],
+      [32, 40, "SKILL"],
+      [45, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with version control systems like Git and SVN.",
+    "entities": [
+      [19, 32, "SKILL"],
+      [38, 41, "SKILL"],
+      [46, 49, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in developing web applications using JSP and Servlets.",
+    "entities": [
+      [29, 32, "SKILL"],
+      [37, 45, "SKILL"]
+    ]
+  },
+  {
+    "text": "Used Apache Kafka for messaging and event streaming.",
+    "entities": [
+      [5, 17, "SKILL"]
+    ]
+  },
+  {
+    "text": "Implemented security with OAuth2 and JWT tokens.",
+    "entities": [
+      [26, 31, "SKILL"],
+      [36, 39, "SKILL"]
+    ]
+  },
+  {
+    "text": "Hands-on experience with Docker and Kubernetes.",
+    "entities": [
+      [25, 31, "SKILL"],
+      [36, 46, "SKILL"]
+    ]
+  },
+  {
+    "text": "Working knowledge of cloud platforms like AWS and Azure.",
+    "entities": [
+      [20, 33, "SKILL"],
+      [39, 44, "SKILL"],
+      [49, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in building RESTful web services using Spring MVC.",
+    "entities": [
+      [18, 38, "SKILL"],
+      [44, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Agile and Scrum methodologies.",
+    "entities": [
+      [17, 22, "SKILL"],
+      [27, 32, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in SQL for database queries and data extraction.",
+    "entities": [
+      [14, 17, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experienced with Excel advanced functions including VLOOKUP and pivot tables.",
+    "entities": [
+      [17, 22, "SKILL"],
+      [52, 59, "SKILL"],
+      [64, 76, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in Python for data analysis using Pandas and NumPy.",
+    "entities": [
+      [11, 17, "SKILL"],
+      [42, 48, "SKILL"],
+      [53, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in Tableau for creating interactive dashboards and visualizations.",
+    "entities": [
+      [10, 17, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in statistical analysis and hypothesis testing.",
+    "entities": [
+      [22, 41, "SKILL"],
+      [46, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Power BI for business intelligence reporting.",
+    "entities": [
+      [16, 24, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in R programming for statistical modeling and data mining.",
+    "entities": [
+      [14, 15, "SKILL"],
+      [32, 51, "SKILL"],
+      [56, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in Google Analytics for web traffic analysis and reporting.",
+    "entities": [
+      [11, 27, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of data cleaning techniques and ETL processes.",
+    "entities": [
+      [13, 35, "SKILL"],
+      [40, 43, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert with SAS for advanced statistical analysis and predictive modeling.",
+    "entities": [
+      [12, 15, "SKILL"],
+      [29, 48, "SKILL"],
+      [53, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in data visualization tools like Matplotlib and Seaborn.",
+    "entities": [
+      [14, 35, "SKILL"],
+      [44, 54, "SKILL"],
+      [59, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with database management systems including MySQL and PostgreSQL.",
+    "entities": [
+      [16, 43, "SKILL"],
+      [54, 59, "SKILL"],
+      [64, 74, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in regression analysis and time series forecasting.",
+    "entities": [
+      [11, 30, "SKILL"],
+      [35, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of A/B testing methodologies and experimental design.",
+    "entities": [
+      [13, 24, "SKILL"],
+      [41, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with SPSS for survey data analysis and market research.",
+    "entities": [
+      [16, 20, "SKILL"],
+      [25, 44, "SKILL"],
+      [49, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in descriptive statistics and data summarization techniques.",
+    "entities": [
+      [10, 32, "SKILL"],
+      [37, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Looker for data exploration and business metrics.",
+    "entities": [
+      [16, 22, "SKILL"],
+      [27, 43, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in cohort analysis and customer segmentation strategies.",
+    "entities": [
+      [11, 25, "SKILL"],
+      [30, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in QlikView for interactive data visualization and reporting.",
+    "entities": [
+      [14, 22, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of machine learning algorithms for classification and clustering.",
+    "entities": [
+      [13, 40, "SKILL"],
+      [45, 59, "SKILL"],
+      [64, 74, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert with Apache Spark for big data processing and analytics.",
+    "entities": [
+      [12, 24, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in financial analysis and budget forecasting models.",
+    "entities": [
+      [14, 32, "SKILL"],
+      [37, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in Google Sheets for collaborative data analysis and reporting.",
+    "entities": [
+      [11, 24, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Jupyter Notebooks for data science workflows.",
+    "entities": [
+      [16, 33, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of correlation analysis and multivariate statistics.",
+    "entities": [
+      [13, 33, "SKILL"],
+      [38, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in survey design and questionnaire development.",
+    "entities": [
+      [10, 23, "SKILL"],
+      [28, 53, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Alteryx for data preparation and workflow automation.",
+    "entities": [
+      [16, 23, "SKILL"],
+      [28, 45, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in trend analysis and seasonal decomposition methods.",
+    "entities": [
+      [11, 25, "SKILL"],
+      [30, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with MongoDB for NoSQL data analysis and aggregation.",
+    "entities": [
+      [16, 23, "SKILL"],
+      [28, 33, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of KPI development and performance metrics tracking.",
+    "entities": [
+      [13, 27, "SKILL"],
+      [32, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in market basket analysis and association rule mining.",
+    "entities": [
+      [10, 33, "SKILL"],
+      [38, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Stata for econometric analysis and panel data.",
+    "entities": [
+      [16, 21, "SKILL"],
+      [26, 46, "SKILL"],
+      [51, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in data warehousing concepts and dimensional modeling.",
+    "entities": [
+      [11, 33, "SKILL"],
+      [38, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Snowflake for cloud data warehousing and analytics.",
+    "entities": [
+      [16, 25, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of customer lifetime value analysis and churn prediction.",
+    "entities": [
+      [13, 44, "SKILL"],
+      [49, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in variance analysis and root cause identification.",
+    "entities": [
+      [10, 27, "SKILL"],
+      [32, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Databricks for collaborative analytics and machine learning.",
+    "entities": [
+      [16, 26, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in Monte Carlo simulation and sensitivity analysis.",
+    "entities": [
+      [11, 33, "SKILL"],
+      [38, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Amazon Redshift for data warehousing and querying.",
+    "entities": [
+      [16, 31, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of web analytics tools including Adobe Analytics and Mixpanel.",
+    "entities": [
+      [13, 31, "SKILL"],
+      [42, 57, "SKILL"],
+      [62, 70, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in funnel analysis and conversion rate optimization.",
+    "entities": [
+      [10, 25, "SKILL"],
+      [30, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Domo for business intelligence and dashboard creation.",
+    "entities": [
+      [16, 20, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in geospatial analysis using GIS tools and location data.",
+    "entities": [
+      [11, 30, "SKILL"],
+      [37, 40, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with SAP Business Objects for enterprise reporting.",
+    "entities": [
+      [16, 35, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of text analytics and natural language processing techniques.",
+    "entities": [
+      [13, 27, "SKILL"],
+      [32, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in forecasting models including ARIMA and exponential smoothing.",
+    "entities": [
+      [10, 28, "SKILL"],
+      [39, 44, "SKILL"],
+      [49, 70, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Pentaho for data integration and business intelligence.",
+    "entities": [
+      [16, 23, "SKILL"],
+      [28, 44, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in attribution modeling and multi-touch attribution analysis.",
+    "entities": [
+      [11, 30, "SKILL"],
+      [35, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Sisense for data visualization and analytical reporting.",
+    "entities": [
+      [16, 23, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of decision trees and random forest algorithms.",
+    "entities": [
+      [13, 27, "SKILL"],
+      [32, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in operational analytics and process improvement methodologies.",
+    "entities": [
+      [10, 31, "SKILL"],
+      [36, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Cognos for enterprise reporting and performance management.",
+    "entities": [
+      [16, 22, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in price elasticity analysis and demand forecasting.",
+    "entities": [
+      [11, 37, "SKILL"],
+      [42, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Hadoop ecosystem for big data analytics.",
+    "entities": [
+      [16, 22, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of cluster analysis and k-means clustering algorithms.",
+    "entities": [
+      [13, 29, "SKILL"],
+      [34, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in business case development and ROI analysis.",
+    "entities": [
+      [10, 35, "SKILL"],
+      [40, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Hive for big data querying and analysis.",
+    "entities": [
+      [16, 20, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in panel data analysis and longitudinal studies.",
+    "entities": [
+      [11, 30, "SKILL"],
+      [35, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Microstrategy for enterprise analytics and reporting.",
+    "entities": [
+      [16, 29, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of survival analysis and hazard modeling techniques.",
+    "entities": [
+      [13, 30, "SKILL"],
+      [35, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in competitive intelligence and market analysis.",
+    "entities": [
+      [10, 34, "SKILL"],
+      [39, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Pig for data processing and ETL operations.",
+    "entities": [
+      [16, 19, "SKILL"],
+      [24, 39, "SKILL"],
+      [44, 47, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in principal component analysis and dimensionality reduction.",
+    "entities": [
+      [11, 39, "SKILL"],
+      [44, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Impala for fast SQL queries on big data.",
+    "entities": [
+      [16, 22, "SKILL"],
+      [32, 35, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of recommendation systems and collaborative filtering algorithms.",
+    "entities": [
+      [13, 34, "SKILL"],
+      [39, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in customer analytics and behavioral segmentation.",
+    "entities": [
+      [10, 29, "SKILL"],
+      [34, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Presto for distributed SQL query processing.",
+    "entities": [
+      [16, 22, "SKILL"],
+      [27, 40, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in social network analysis and graph theory applications.",
+    "entities": [
+      [11, 34, "SKILL"],
+      [39, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Cassandra for NoSQL database management and analysis.",
+    "entities": [
+      [16, 25, "SKILL"],
+      [30, 35, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of optimization algorithms and linear programming.",
+    "entities": [
+      [13, 36, "SKILL"],
+      [41, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in retail analytics and merchandising optimization.",
+    "entities": [
+      [10, 26, "SKILL"],
+      [31, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Spark SQL for large-scale data processing.",
+    "entities": [
+      [16, 25, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in anomaly detection and outlier analysis techniques.",
+    "entities": [
+      [11, 28, "SKILL"],
+      [33, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with HBase for real-time data access and analytics.",
+    "entities": [
+      [16, 21, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of risk assessment models and credit scoring algorithms.",
+    "entities": [
+      [13, 35, "SKILL"],
+      [40, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in supply chain analytics and inventory optimization.",
+    "entities": [
+      [10, 32, "SKILL"],
+      [37, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Druid for real-time analytics and OLAP queries.",
+    "entities": [
+      [16, 21, "SKILL"],
+      [51, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in sentiment analysis and opinion mining techniques.",
+    "entities": [
+      [11, 29, "SKILL"],
+      [34, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with ClickHouse for columnar database analytics.",
+    "entities": [
+      [16, 26, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of fraud detection algorithms and pattern recognition.",
+    "entities": [
+      [13, 38, "SKILL"],
+      [43, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in healthcare analytics and epidemiological modeling.",
+    "entities": [
+      [10, 30, "SKILL"],
+      [35, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Vertica for high-performance analytics and data warehousing.",
+    "entities": [
+      [16, 23, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in energy analytics and demand response optimization.",
+    "entities": [
+      [11, 27, "SKILL"],
+      [32, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Teradata for enterprise data warehousing and analytics.",
+    "entities": [
+      [16, 24, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of transportation analytics and route optimization algorithms.",
+    "entities": [
+      [13, 37, "SKILL"],
+      [42, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in digital marketing analytics and campaign performance measurement.",
+    "entities": [
+      [10, 37, "SKILL"],
+      [42, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Elasticsearch for search analytics and log analysis.",
+    "entities": [
+      [16, 29, "SKILL"],
+      [34, 50, "SKILL"],
+      [55, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in sports analytics and player performance evaluation.",
+    "entities": [
+      [11, 27, "SKILL"],
+      [32, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Neo4j for graph database analysis and network analytics.",
+    "entities": [
+      [16, 21, "SKILL"],
+      [26, 39, "SKILL"],
+      [54, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of telecommunications analytics and network optimization.",
+    "entities": [
+      [13, 40, "SKILL"],
+      [45, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in environmental analytics and sustainability metrics.",
+    "entities": [
+      [10, 33, "SKILL"],
+      [38, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Apache Kafka for real-time data streaming and analytics.",
+    "entities": [
+      [16, 28, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in educational analytics and learning outcome assessment.",
+    "entities": [
+      [11, 32, "SKILL"],
+      [37, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with Grafana for metrics visualization and monitoring dashboards.",
+    "entities": [
+      [16, 23, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of manufacturing analytics and quality control statistical methods.",
+    "entities": [
+      [13, 36, "SKILL"],
+      [41, 76, "SKILL"]
+    ]
+  },
+  {
+    "text": "Expert in hospitality analytics and revenue management optimization.",
+    "entities": [
+      [10, 32, "SKILL"],
+      [37, 67, "SKILL"]
+    ]
+  },{
+    "text": "Currently enrolled in Informatics, Computer Science, or Business Informatics program.",
+    "entities": [
+      [22, 33, "EDUCATION"],
+      [35, 51, "EDUCATION"],
+      [56, 75, "EDUCATION"]
+    ]
+  },
+  {
+    "text": "Experience in Java, C++, Rust, Swift, TypeScript, or React development.",
+    "entities": [
+      [14, 18, "SKILL"],
+      [20, 23, "SKILL"],
+      [25, 29, "SKILL"],
+      [31, 36, "SKILL"],
+      [38, 48, "SKILL"],
+      [53, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in frontend and backend engineering for healthcare applications.",
+    "entities": [
+      [14, 22, "SKILL"],
+      [27, 34, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in software engineering with focus on scalable systems.",
+    "entities": [
+      [22, 41, "SKILL"],
+      [57, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Demonstrated coding experience with GitHub contributions and version control.",
+    "entities": [
+      [12, 29, "SKILL"],
+      [35, 41, "SKILL"],
+      [57, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with large-scale clinical software infrastructure development.",
+    "entities": [
+      [16, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in secure software engineering practices and best practices.",
+    "entities": [
+      [11, 42, "SKILL"],
+      [56, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of modern technologies in healthcare software development.",
+    "entities": [
+      [13, 31, "SKILL"],
+      [35, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in designing, testing, and deploying backend components.",
+    "entities": [
+      [14, 23, "SKILL"],
+      [25, 32, "SKILL"],
+      [38, 47, "SKILL"],
+      [48, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient with React for building user-friendly frontend interfaces.",
+    "entities": [
+      [16, 21, "SKILL"],
+      [34, 47, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong understanding of TypeScript for type-safe web development.",
+    "entities": [
+      [21, 31, "SKILL"],
+      [36, 45, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Java development for enterprise-level applications.",
+    "entities": [
+      [16, 20, "SKILL"],
+      [35, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of C++ programming for performance-critical systems.",
+    "entities": [
+      [13, 16, "SKILL"],
+      [31, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in Rust programming for system-level development.",
+    "entities": [
+      [11, 15, "SKILL"],
+      [30, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with Swift development for iOS applications.",
+    "entities": [
+      [16, 21, "SKILL"],
+      [36, 39, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in modular software architecture and platform development.",
+    "entities": [
+      [14, 42, "SKILL"],
+      [47, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in digital healthcare solutions and patient care systems.",
+    "entities": [
+      [22, 49, "SKILL"],
+      [54, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with workflow digitization and process optimization.",
+    "entities": [
+      [16, 37, "SKILL"],
+      [42, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of clinical software infrastructure and hospital management systems.",
+    "entities": [
+      [13, 45, "SKILL"],
+      [50, 76, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in building scalable and secure healthcare applications.",
+    "entities": [
+      [11, 27, "SKILL"],
+      [32, 38, "SKILL"],
+      [43, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in startup environment with venture capital backing.",
+    "entities": [
+      [14, 32, "SKILL"],
+      [38, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in agile development methodologies and team collaboration.",
+    "entities": [
+      [14, 43, "SKILL"],
+      [48, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong problem-solving skills with solution-oriented mindset.",
+    "entities": [
+      [7, 29, "SKILL"],
+      [35, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with high-impact software development in mission-critical environments.",
+    "entities": [
+      [16, 47, "SKILL"],
+      [51, 81, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of user experience design and usability optimization.",
+    "entities": [
+      [13, 35, "SKILL"],
+      [40, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in performance optimization and software maintenance.",
+    "entities": [
+      [11, 35, "SKILL"],
+      [40, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with modern web technologies and frontend frameworks.",
+    "entities": [
+      [16, 39, "SKILL"],
+      [44, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in database design and backend system architecture.",
+    "entities": [
+      [14, 29, "SKILL"],
+      [34, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong understanding of software testing and quality assurance practices.",
+    "entities": [
+      [21, 37, "SKILL"],
+      [42, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with cloud deployment and infrastructure management.",
+    "entities": [
+      [16, 32, "SKILL"],
+      [37, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of healthcare compliance and regulatory requirements.",
+    "entities": [
+      [13, 35, "SKILL"],
+      [40, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in API development and microservices architecture.",
+    "entities": [
+      [11, 25, "SKILL"],
+      [30, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with continuous integration and deployment pipelines.",
+    "entities": [
+      [16, 40, "SKILL"],
+      [45, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in code review processes and collaborative development.",
+    "entities": [
+      [14, 34, "SKILL"],
+      [39, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in full-stack development and system integration.",
+    "entities": [
+      [22, 43, "SKILL"],
+      [48, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare data management and patient information systems.",
+    "entities": [
+      [16, 42, "SKILL"],
+      [47, 74, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of medical software standards and interoperability protocols.",
+    "entities": [
+      [13, 39, "SKILL"],
+      [44, 70, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in real-time systems development and clinical workflow optimization.",
+    "entities": [
+      [11, 40, "SKILL"],
+      [45, 74, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with hospital information systems and electronic health records.",
+    "entities": [
+      [16, 43, "SKILL"],
+      [48, 74, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare analytics and patient outcome measurement.",
+    "entities": [
+      [14, 34, "SKILL"],
+      [39, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong understanding of medical device integration and IoT connectivity.",
+    "entities": [
+      [21, 48, "SKILL"],
+      [53, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with telemedicine platforms and remote patient monitoring.",
+    "entities": [
+      [16, 37, "SKILL"],
+      [42, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of healthcare AI and machine learning applications.",
+    "entities": [
+      [13, 27, "SKILL"],
+      [32, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in clinical decision support systems and diagnostic tools.",
+    "entities": [
+      [11, 43, "SKILL"],
+      [48, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with medical imaging systems and DICOM standards.",
+    "entities": [
+      [16, 39, "SKILL"],
+      [44, 49, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare mobile applications and patient engagement platforms.",
+    "entities": [
+      [14, 43, "SKILL"],
+      [48, 76, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in pharmacy management systems and medication tracking.",
+    "entities": [
+      [22, 48, "SKILL"],
+      [53, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with laboratory information systems and test result management.",
+    "entities": [
+      [16, 46, "SKILL"],
+      [51, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of nursing workflows and care coordination systems.",
+    "entities": [
+      [13, 30, "SKILL"],
+      [35, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in healthcare billing systems and revenue cycle management.",
+    "entities": [
+      [11, 36, "SKILL"],
+      [41, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with clinical research platforms and patient recruitment systems.",
+    "entities": [
+      [16, 42, "SKILL"],
+      [47, 75, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare cybersecurity and data protection measures.",
+    "entities": [
+      [14, 36, "SKILL"],
+      [41, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong understanding of HIPAA compliance and patient privacy regulations.",
+    "entities": [
+      [21, 37, "SKILL"],
+      [42, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with medical appointment scheduling and resource management.",
+    "entities": [
+      [16, 46, "SKILL"],
+      [51, 70, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of healthcare quality metrics and performance indicators.",
+    "entities": [
+      [13, 39, "SKILL"],
+      [44, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in emergency department systems and critical care monitoring.",
+    "entities": [
+      [11, 39, "SKILL"],
+      [44, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with surgical workflow management and operating room systems.",
+    "entities": [
+      [16, 43, "SKILL"],
+      [48, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare supply chain management and inventory tracking.",
+    "entities": [
+      [14, 48, "SKILL"],
+      [53, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in medical equipment integration and device connectivity.",
+    "entities": [
+      [22, 51, "SKILL"],
+      [56, 74, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with patient portal development and user authentication systems.",
+    "entities": [
+      [16, 42, "SKILL"],
+      [47, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of healthcare reporting and regulatory compliance automation.",
+    "entities": [
+      [13, 33, "SKILL"],
+      [38, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in clinical trial management and research data collection.",
+    "entities": [
+      [11, 39, "SKILL"],
+      [44, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare chatbots and AI-powered patient assistance.",
+    "entities": [
+      [16, 36, "SKILL"],
+      [41, 43, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in medical education platforms and e-learning systems.",
+    "entities": [
+      [14, 40, "SKILL"],
+      [45, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong understanding of healthcare interoperability and data exchange standards.",
+    "entities": [
+      [21, 47, "SKILL"],
+      [52, 78, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with population health management and epidemiological tracking.",
+    "entities": [
+      [16, 46, "SKILL"],
+      [51, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of mental health platforms and behavioral health monitoring.",
+    "entities": [
+      [13, 36, "SKILL"],
+      [41, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in rehabilitation systems and physical therapy management.",
+    "entities": [
+      [11, 32, "SKILL"],
+      [37, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with home healthcare systems and remote care delivery.",
+    "entities": [
+      [16, 39, "SKILL"],
+      [44, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare analytics and predictive modeling for patient outcomes.",
+    "entities": [
+      [14, 34, "SKILL"],
+      [39, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in pediatric care systems and child health monitoring.",
+    "entities": [
+      [22, 43, "SKILL"],
+      [48, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with geriatric care platforms and elderly patient management.",
+    "entities": [
+      [16, 40, "SKILL"],
+      [45, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of oncology information systems and cancer care coordination.",
+    "entities": [
+      [13, 42, "SKILL"],
+      [47, 70, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in cardiac monitoring systems and cardiovascular data analysis.",
+    "entities": [
+      [11, 36, "SKILL"],
+      [41, 70, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with diabetes management platforms and chronic disease monitoring.",
+    "entities": [
+      [16, 45, "SKILL"],
+      [50, 75, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare workflow automation and process digitization.",
+    "entities": [
+      [14, 43, "SKILL"],
+      [48, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong understanding of medical coding systems and healthcare taxonomy.",
+    "entities": [
+      [21, 42, "SKILL"],
+      [47, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with clinical communication systems and secure messaging platforms.",
+    "entities": [
+      [16, 46, "SKILL"],
+      [51, 76, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of healthcare project management and agile methodologies.",
+    "entities": [
+      [13, 42, "SKILL"],
+      [47, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in medical device software development and FDA compliance.",
+    "entities": [
+      [11, 46, "SKILL"],
+      [51, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare cloud computing and HIPAA-compliant infrastructure.",
+    "entities": [
+      [16, 42, "SKILL"],
+      [47, 77, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare user interface design and clinical user experience.",
+    "entities": [
+      [14, 43, "SKILL"],
+      [48, 75, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in healthcare data visualization and clinical dashboards.",
+    "entities": [
+      [22, 49, "SKILL"],
+      [54, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare performance monitoring and system optimization.",
+    "entities": [
+      [16, 47, "SKILL"],
+      [52, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of healthcare change management and digital transformation.",
+    "entities": [
+      [13, 40, "SKILL"],
+      [45, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in healthcare training systems and staff education platforms.",
+    "entities": [
+      [11, 36, "SKILL"],
+      [41, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare vendor management and third-party integrations.",
+    "entities": [
+      [16, 43, "SKILL"],
+      [48, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare risk management and patient safety systems.",
+    "entities": [
+      [14, 40, "SKILL"],
+      [45, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong understanding of healthcare business intelligence and operational analytics.",
+    "entities": [
+      [21, 51, "SKILL"],
+      [56, 81, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare customer support and patient service platforms.",
+    "entities": [
+      [16, 43, "SKILL"],
+      [48, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of healthcare disaster recovery and business continuity planning.",
+    "entities": [
+      [13, 42, "SKILL"],
+      [47, 74, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in healthcare network security and protected health information management.",
+    "entities": [
+      [11, 38, "SKILL"],
+      [43, 82, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare middleware and system integration platforms.",
+    "entities": [
+      [16, 37, "SKILL"],
+      [42, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare version control and configuration management.",
+    "entities": [
+      [14, 39, "SKILL"],
+      [44, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in healthcare documentation and technical writing.",
+    "entities": [
+      [22, 47, "SKILL"],
+      [52, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare localization and multi-language support systems.",
+    "entities": [
+      [16, 40, "SKILL"],
+      [45, 74, "SKILL"]
+    ]
+  },
+  {
+    "text": "Knowledge of healthcare licensing and software deployment strategies.",
+    "entities": [
+      [13, 34, "SKILL"],
+      [39, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skilled in healthcare benchmarking and competitive analysis.",
+    "entities": [
+      [11, 33, "SKILL"],
+      [38, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience with healthcare innovation and emerging technology adoption.",
+    "entities": [
+      [16, 37, "SKILL"],
+      [42, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proficient in healthcare stakeholder management and cross-functional collaboration.",
+    "entities": [
+      [14, 46, "SKILL"],
+      [51, 82, "SKILL"]
+    ]
+  },{
+    "text": "Specializing in AI/ML applications, computer vision, and software integration.",
+    "entities": [
+      [16, 34, "SKILL"],
+      [36, 51, "SKILL"],
+      [57, 77, "SKILL"]
+    ]
+  },
+  {
+    "text": "Proven expertise in Python, C++, and cloud technologies.",
+    "entities": [
+      [20, 26, "SKILL"],
+      [28, 31, "SKILL"],
+      [37, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Programming Languages: Python, Java, JavaScript, SQL, Go, HTML5, CSS3",
+    "entities": [
+      [23, 29, "SKILL"],
+      [31, 35, "SKILL"],
+      [37, 47, "SKILL"],
+      [49, 52, "SKILL"],
+      [54, 56, "SKILL"],
+      [58, 63, "SKILL"],
+      [65, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Machine Learning frameworks, Computer Vision algorithms, Deep Learning, TensorFlow, OpenCV",
+    "entities": [
+      [0, 27, "SKILL"],
+      [29, 54, "SKILL"],
+      [56, 70, "SKILL"],
+      [72, 82, "SKILL"],
+      [84, 90, "SKILL"]
+    ]
+  },
+  {
+    "text": "RESTful APIs, Microservices, System Integration, Adapter Pattern Implementation",
+    "entities": [
+      [0, 12, "SKILL"],
+      [14, 27, "SKILL"],
+      [29, 47, "SKILL"],
+      [49, 79, "SKILL"]
+    ]
+  },
+  {
+    "text": "Spring Boot, Django, React, Jersey, Restlet, Hibernate",
+    "entities": [
+      [0, 11, "SKILL"],
+      [13, 19, "SKILL"],
+      [21, 26, "SKILL"],
+      [28, 34, "SKILL"],
+      [36, 43, "SKILL"],
+      [45, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "AWS, Docker, Jenkins, CI/CD pipelines, Infrastructure as Code",
+    "entities": [
+      [0, 3, "SKILL"],
+      [5, 11, "SKILL"],
+      [13, 20, "SKILL"],
+      [22, 36, "SKILL"],
+      [38, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Git, GitHub, Maven, Gradle, JUnit, Mockito, Visual Studio",
+    "entities": [
+      [0, 3, "SKILL"],
+      [5, 11, "SKILL"],
+      [13, 18, "SKILL"],
+      [20, 26, "SKILL"],
+      [28, 33, "SKILL"],
+      [35, 42, "SKILL"],
+      [44, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "MongoDB, Oracle, MySQL, Database optimization",
+    "entities": [
+      [0, 7, "SKILL"],
+      [9, 15, "SKILL"],
+      [17, 22, "SKILL"],
+      [24, 45, "SKILL"]
+    ]
+  },
+  {
+    "text": "Developed secure multi-tenant Go-based applications",
+    "entities": [
+      [10, 16, "SKILL"],
+      [17, 29, "SKILL"],
+      [30, 38, "SKILL"]
+    ]
+  },
+  {
+    "text": "Implemented advanced authentication and encryption features",
+    "entities": [
+      [12, 20, "SKILL"],
+      [21, 35, "SKILL"],
+      [40, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Developed AI-based computer vision algorithms for automated security scanning",
+    "entities": [
+      [10, 18, "SKILL"],
+      [19, 34, "SKILL"],
+      [35, 45, "SKILL"],
+      [50, 77, "SKILL"]
+    ]
+  },
+  {
+    "text": "Implemented machine learning models for pattern recognition and anomaly detection",
+    "entities": [
+      [12, 35, "SKILL"],
+      [40, 59, "SKILL"],
+      [64, 81, "SKILL"]
+    ]
+  },
+  {
+    "text": "Computer vision algorithms for real-time object detection and tracking",
+    "entities": [
+      [0, 26, "SKILL"],
+      [31, 40, "SKILL"],
+      [41, 57, "SKILL"],
+      [62, 70, "SKILL"]
+    ]
+  },
+  {
+    "text": "Software adapters for seamless integration with third-party systems",
+    "entities": [
+      [0, 17, "SKILL"],
+      [22, 42, "SKILL"],
+      [48, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Microservices architecture with seamless interoperability",
+    "entities": [
+      [0, 26, "SKILL"],
+      [32, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Adapter patterns and middleware solutions for legacy system integration",
+    "entities": [
+      [0, 16, "SKILL"],
+      [21, 41, "SKILL"],
+      [46, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "ML model integration pipeline with automated feature extraction",
+    "entities": [
+      [0, 29, "SKILL"],
+      [35, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Real-time model serving architecture with monitoring and logging systems",
+    "entities": [
+      [0, 36, "SKILL"],
+      [42, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Real-time object tracking and 3D model overlay capabilities",
+    "entities": [
+      [0, 25, "SKILL"],
+      [30, 47, "SKILL"],
+      [48, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Feature detection and tracking in dynamic environments",
+    "entities": [
+      [0, 17, "SKILL"],
+      [22, 30, "SKILL"],
+      [34, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Using C++, Python, OpenGL, Computer Vision for AR development",
+    "entities": [
+      [6, 9, "SKILL"],
+      [11, 17, "SKILL"],
+      [19, 25, "SKILL"],
+      [27, 42, "SKILL"],
+      [47, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Algorithm improvements for performance optimization",
+    "entities": [
+      [0, 21, "SKILL"],
+      [26, 51, "SKILL"]
+    ]
+  },
+  {
+    "text": "Cross-functional team collaboration and agile development",
+    "entities": [
+      [0, 35, "SKILL"],
+      [40, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "System testing and validation with comprehensive documentation",
+    "entities": [
+      [0, 14, "SKILL"],
+      [19, 29, "SKILL"],
+      [35, 62, "SKILL"]
+    ]
+  },{
+    "text": "Power BI and Tableau data visualization with advanced analytics",
+    "entities": [
+      [0, 8, "SKILL"],
+      [13, 20, "SKILL"],
+      [21, 38, "SKILL"],
+      [44, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Python programming with statistical modeling and machine learning",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 18, "SKILL"],
+      [24, 44, "SKILL"],
+      [49, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "SQL database management and MongoDB optimization techniques",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 23, "SKILL"],
+      [28, 35, "SKILL"],
+      [36, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Natural language processing with NLTK and spaCy libraries",
+    "entities": [
+      [0, 31, "SKILL"],
+      [37, 41, "SKILL"],
+      [46, 51, "SKILL"]
+    ]
+  },
+  {
+    "text": "Sentiment analysis and text preprocessing pipeline development",
+    "entities": [
+      [0, 18, "SKILL"],
+      [23, 40, "SKILL"],
+      [41, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Customer segmentation using K-means clustering algorithms",
+    "entities": [
+      [0, 21, "SKILL"],
+      [28, 35, "SKILL"],
+      [36, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Time series analysis and ensemble methods for prediction",
+    "entities": [
+      [0, 20, "SKILL"],
+      [25, 41, "SKILL"],
+      [46, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "A/B testing and statistical hypothesis testing methodologies",
+    "entities": [
+      [0, 11, "SKILL"],
+      [16, 27, "SKILL"],
+      [28, 47, "SKILL"],
+      [48, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "TensorFlow and PyTorch deep learning framework implementation",
+    "entities": [
+      [0, 10, "SKILL"],
+      [15, 22, "SKILL"],
+      [23, 36, "SKILL"],
+      [37, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Scikit-learn machine learning model development and validation",
+    "entities": [
+      [0, 12, "SKILL"],
+      [13, 29, "SKILL"],
+      [30, 46, "SKILL"],
+      [51, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Data visualization with Matplotlib, Seaborn, and Plotly",
+    "entities": [
+      [0, 18, "SKILL"],
+      [24, 34, "SKILL"],
+      [36, 43, "SKILL"],
+      [49, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "AWS and Google Cloud platform architecture and deployment",
+    "entities": [
+      [0, 3, "SKILL"],
+      [8, 20, "SKILL"],
+      [21, 40, "SKILL"],
+      [45, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Quantitative and qualitative research methodologies",
+    "entities": [
+      [0, 12, "SKILL"],
+      [17, 28, "SKILL"],
+      [29, 51, "SKILL"]
+    ]
+  },
+  {
+    "text": "Qualtrics survey design and market research analysis",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 23, "SKILL"],
+      [28, 43, "SKILL"],
+      [44, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Feature engineering and dimensionality reduction with PCA",
+    "entities": [
+      [0, 19, "SKILL"],
+      [24, 48, "SKILL"],
+      [54, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Risk assessment modeling and predictive analytics",
+    "entities": [
+      [0, 15, "SKILL"],
+      [16, 24, "SKILL"],
+      [29, 49, "SKILL"]
+    ]
+  },
+  {
+    "text": "Real-time monitoring dashboards and business intelligence",
+    "entities": [
+      [0, 19, "SKILL"],
+      [20, 30, "SKILL"],
+      [35, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Exploratory data analysis and statistical validation techniques",
+    "entities": [
+      [0, 25, "SKILL"],
+      [30, 42, "SKILL"],
+      [43, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Cross-functional team collaboration in agile development environments",
+    "entities": [
+      [0, 31, "SKILL"],
+      [35, 51, "SKILL"],
+      [55, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Large-scale data processing with MongoDB and PostgreSQL",
+    "entities": [
+      [0, 15, "SKILL"],
+      [16, 31, "SKILL"],
+      [37, 44, "SKILL"],
+      [49, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Django framework development for web applications",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 28, "SKILL"],
+      [33, 49, "SKILL"]
+    ]
+  },
+  {
+    "text": "Pattern recognition and anomaly detection algorithms",
+    "entities": [
+      [0, 19, "SKILL"],
+      [24, 40, "SKILL"],
+      [41, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "Security analytics and threat detection system development",
+    "entities": [
+      [0, 18, "SKILL"],
+      [23, 38, "SKILL"],
+      [39, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Multi-tenant application architecture with scalable backend systems",
+    "entities": [
+      [0, 12, "SKILL"],
+      [13, 37, "SKILL"],
+      [43, 52, "SKILL"],
+      [53, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Database optimization and aggregation pipeline design",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 21, "SKILL"],
+      [26, 37, "SKILL"],
+      [38, 53, "SKILL"]
+    ]
+  },
+  {
+    "text": "Excel advanced functions and Microsoft Office Suite proficiency",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 24, "SKILL"],
+      [29, 48, "SKILL"],
+      [49, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Regression analysis and XGBoost ensemble learning methods",
+    "entities": [
+      [0, 19, "SKILL"],
+      [24, 31, "SKILL"],
+      [32, 48, "SKILL"],
+      [49, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Transformers and large language model implementation",
+    "entities": [
+      [0, 12, "SKILL"],
+      [17, 40, "SKILL"],
+      [41, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "MATLAB statistical computing and numerical analysis",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 28, "SKILL"],
+      [33, 51, "SKILL"]
+    ]
+  },
+  {
+    "text": "Vulnerability assessment and security metrics reporting",
+    "entities": [
+      [0, 23, "SKILL"],
+      [28, 36, "SKILL"],
+      [37, 55, "SKILL"]
+    ]
+  },{
+    "text": "Financial statement analysis and budget forecasting expertise",
+    "entities": [
+      [0, 27, "SKILL"],
+      [32, 49, "SKILL"],
+      [50, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Account reconciliation with general ledger accounting proficiency",
+    "entities": [
+      [0, 23, "SKILL"],
+      [29, 44, "SKILL"],
+      [45, 55, "SKILL"],
+      [56, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Compliance testing knowledge and regulatory reporting expertise",
+    "entities": [
+      [0, 20, "SKILL"],
+      [21, 30, "SKILL"],
+      [35, 45, "SKILL"],
+      [46, 55, "SKILL"],
+      [56, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Adobe software proficiency with advanced computer skills",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 14, "SKILL"],
+      [15, 26, "SKILL"],
+      [32, 40, "SKILL"],
+      [41, 49, "SKILL"],
+      [50, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Microsoft Office applications including Excel and PowerPoint",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 16, "SKILL"],
+      [17, 29, "SKILL"],
+      [40, 45, "SKILL"],
+      [50, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Pivot tables and spreadsheet development for financial reporting",
+    "entities": [
+      [0, 11, "SKILL"],
+      [16, 27, "SKILL"],
+      [28, 39, "SKILL"],
+      [44, 53, "SKILL"],
+      [54, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Cash flow projection and bank reconciliation procedures",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 20, "SKILL"],
+      [25, 29, "SKILL"],
+      [30, 44, "SKILL"],
+      [45, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Accounts receivable management and billing process automation",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 19, "SKILL"],
+      [20, 30, "SKILL"],
+      [35, 42, "SKILL"],
+      [43, 50, "SKILL"],
+      [51, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "GAAP compliance and revenue recognition methodology",
+    "entities": [
+      [0, 4, "SKILL"],
+      [5, 15, "SKILL"],
+      [20, 27, "SKILL"],
+      [28, 39, "SKILL"],
+      [40, 51, "SKILL"]
+    ]
+  },
+  {
+    "text": "Project budget management and contract administration",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 14, "SKILL"],
+      [15, 25, "SKILL"],
+      [30, 38, "SKILL"],
+      [39, 53, "SKILL"]
+    ]
+  },
+  {
+    "text": "AIA documents preparation and consultant contract management",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 13, "SKILL"],
+      [14, 25, "SKILL"],
+      [30, 40, "SKILL"],
+      [41, 49, "SKILL"],
+      [50, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Monthly variance analysis and trend forecasting capabilities",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 16, "SKILL"],
+      [17, 25, "SKILL"],
+      [30, 35, "SKILL"],
+      [36, 47, "SKILL"],
+      [48, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Tax reporting and government forms preparation expertise",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 13, "SKILL"],
+      [18, 28, "SKILL"],
+      [29, 34, "SKILL"],
+      [35, 46, "SKILL"],
+      [47, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Customer relations and client communication management",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 18, "SKILL"],
+      [23, 29, "SKILL"],
+      [30, 43, "SKILL"],
+      [44, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Job cost reporting and project progress monitoring",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 8, "SKILL"],
+      [9, 18, "SKILL"],
+      [23, 30, "SKILL"],
+      [31, 39, "SKILL"],
+      [40, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Year-end audit assistance and financial controls implementation",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 14, "SKILL"],
+      [15, 25, "SKILL"],
+      [30, 39, "SKILL"],
+      [40, 48, "SKILL"],
+      [49, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Insurance certificate coordination and property accounting",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 21, "SKILL"],
+      [22, 34, "SKILL"],
+      [39, 47, "SKILL"],
+      [48, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Timberline software and construction project management",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 19, "SKILL"],
+      [24, 36, "SKILL"],
+      [37, 44, "SKILL"],
+      [45, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Daily cash reconciliation and deposit processing procedures",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 10, "SKILL"],
+      [11, 24, "SKILL"],
+      [29, 36, "SKILL"],
+      [37, 47, "SKILL"],
+      [48, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Monthly billing preparation based on contract milestones",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 15, "SKILL"],
+      [16, 27, "SKILL"],
+      [37, 45, "SKILL"],
+      [46, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Analytical reasoning and complex problem solving skills",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 20, "SKILL"],
+      [25, 32, "SKILL"],
+      [33, 40, "SKILL"],
+      [41, 48, "SKILL"],
+      [49, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Team leadership and organizational management capabilities",
+    "entities": [
+      [0, 4, "SKILL"],
+      [5, 15, "SKILL"],
+      [20, 34, "SKILL"],
+      [35, 45, "SKILL"],
+      [46, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Quarterly backlog reporting and revenue forecasting analysis",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 17, "SKILL"],
+      [18, 27, "SKILL"],
+      [32, 39, "SKILL"],
+      [40, 51, "SKILL"],
+      [52, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Sub-contractor invoice auditing and payment processing",
+    "entities": [
+      [0, 14, "SKILL"],
+      [15, 22, "SKILL"],
+      [23, 31, "SKILL"],
+      [36, 43, "SKILL"],
+      [44, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "CAM reconciliation and rental property management",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 18, "SKILL"],
+      [23, 29, "SKILL"],
+      [30, 38, "SKILL"],
+      [39, 49, "SKILL"]
+    ]
+  },
+  {
+    "text": "American Express expense reporting and reconciliation",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 16, "SKILL"],
+      [17, 24, "SKILL"],
+      [25, 34, "SKILL"],
+      [39, 53, "SKILL"]
+    ]
+  },
+  {
+    "text": "Standard Forms 295 and 294 government reporting compliance",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 14, "SKILL"],
+      [19, 22, "SKILL"],
+      [27, 37, "SKILL"],
+      [38, 47, "SKILL"],
+      [48, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Work-in-progress reporting and project status analysis",
+    "entities": [
+      [0, 4, "SKILL"],
+      [5, 13, "SKILL"],
+      [14, 23, "SKILL"],
+      [28, 35, "SKILL"],
+      [36, 42, "SKILL"],
+      [43, 51, "SKILL"]
+    ]
+  },
+  {
+    "text": "Month-end close procedures and journal entry preparation",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 9, "SKILL"],
+      [10, 15, "SKILL"],
+      [16, 26, "SKILL"],
+      [31, 38, "SKILL"],
+      [39, 44, "SKILL"],
+      [45, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Bad debt provisions and contingency accounting management",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 8, "SKILL"],
+      [9, 19, "SKILL"],
+      [24, 35, "SKILL"],
+      [36, 46, "SKILL"],
+      [47, 57, "SKILL"]
+    ]
+  },{
+    "text": "React.js development with Redux state management and component architecture",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 20, "SKILL"],
+      [26, 31, "SKILL"],
+      [32, 37, "SKILL"],
+      [38, 48, "SKILL"],
+      [53, 62, "SKILL"],
+      [63, 75, "SKILL"]
+    ]
+  },
+  {
+    "text": "HTML5 semantic markup and CSS3 responsive design implementation",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 14, "SKILL"],
+      [15, 21, "SKILL"],
+      [26, 30, "SKILL"],
+      [31, 41, "SKILL"],
+      [42, 48, "SKILL"],
+      [49, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "JavaScript ES6+ programming with async/await and Promise handling",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 15, "SKILL"],
+      [16, 27, "SKILL"],
+      [33, 43, "SKILL"],
+      [48, 55, "SKILL"],
+      [56, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Vue.js framework development with Vuex state management",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 16, "SKILL"],
+      [17, 28, "SKILL"],
+      [34, 38, "SKILL"],
+      [39, 44, "SKILL"],
+      [45, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Angular TypeScript development with RxJS reactive programming",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 18, "SKILL"],
+      [19, 30, "SKILL"],
+      [36, 40, "SKILL"],
+      [41, 49, "SKILL"],
+      [50, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Sass preprocessing and Bootstrap framework for responsive layouts",
+    "entities": [
+      [0, 4, "SKILL"],
+      [5, 17, "SKILL"],
+      [22, 31, "SKILL"],
+      [32, 41, "SKILL"],
+      [46, 56, "SKILL"],
+      [57, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Webpack module bundling and npm package management",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 14, "SKILL"],
+      [15, 23, "SKILL"],
+      [28, 31, "SKILL"],
+      [32, 39, "SKILL"],
+      [40, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Git version control with GitHub workflow and code collaboration",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 11, "SKILL"],
+      [12, 19, "SKILL"],
+      [25, 31, "SKILL"],
+      [32, 40, "SKILL"],
+      [45, 49, "SKILL"],
+      [50, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "RESTful API integration and GraphQL query optimization",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 11, "SKILL"],
+      [12, 23, "SKILL"],
+      [28, 35, "SKILL"],
+      [36, 41, "SKILL"],
+      [42, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Jest unit testing and Cypress end-to-end testing automation",
+    "entities": [
+      [0, 4, "SKILL"],
+      [5, 9, "SKILL"],
+      [10, 17, "SKILL"],
+      [22, 29, "SKILL"],
+      [30, 41, "SKILL"],
+      [42, 49, "SKILL"],
+      [50, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Responsive web design with CSS Grid and Flexbox layouts",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 14, "SKILL"],
+      [15, 21, "SKILL"],
+      [27, 30, "SKILL"],
+      [31, 35, "SKILL"],
+      [40, 47, "SKILL"],
+      [48, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Progressive Web App development with service workers",
+    "entities": [
+      [0, 11, "SKILL"],
+      [12, 15, "SKILL"],
+      [16, 19, "SKILL"],
+      [20, 31, "SKILL"],
+      [37, 44, "SKILL"],
+      [45, 52, "SKILL"]
+    ]
+  },
+  {
+    "text": "UI/UX design principles and accessibility standards implementation",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 12, "SKILL"],
+      [13, 23, "SKILL"],
+      [28, 41, "SKILL"],
+      [42, 51, "SKILL"],
+      [52, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Next.js server-side rendering and static site generation",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 19, "SKILL"],
+      [20, 29, "SKILL"],
+      [34, 40, "SKILL"],
+      [41, 45, "SKILL"],
+      [46, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Material-UI component library and styled-components implementation",
+    "entities": [
+      [0, 11, "SKILL"],
+      [12, 21, "SKILL"],
+      [22, 29, "SKILL"],
+      [34, 50, "SKILL"],
+      [51, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Cross-browser compatibility testing and performance optimization",
+    "entities": [
+      [0, 13, "SKILL"],
+      [14, 27, "SKILL"],
+      [28, 35, "SKILL"],
+      [40, 51, "SKILL"],
+      [52, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Babel transpilation and ESLint code quality enforcement",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 19, "SKILL"],
+      [24, 30, "SKILL"],
+      [31, 35, "SKILL"],
+      [36, 43, "SKILL"],
+      [44, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Docker containerization for frontend application deployment",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 22, "SKILL"],
+      [27, 35, "SKILL"],
+      [36, 47, "SKILL"],
+      [48, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Agile development methodology with Scrum and Kanban practices",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 17, "SKILL"],
+      [18, 29, "SKILL"],
+      [35, 40, "SKILL"],
+      [45, 51, "SKILL"],
+      [52, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "WebSocket real-time communication and Socket.io integration",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 19, "SKILL"],
+      [20, 33, "SKILL"],
+      [38, 47, "SKILL"],
+      [48, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "D3.js data visualization and Chart.js interactive dashboards",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 10, "SKILL"],
+      [11, 24, "SKILL"],
+      [29, 37, "SKILL"],
+      [38, 49, "SKILL"],
+      [50, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Tailwind CSS utility-first framework and component styling",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 12, "SKILL"],
+      [13, 25, "SKILL"],
+      [26, 35, "SKILL"],
+      [40, 49, "SKILL"],
+      [50, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Storybook component documentation and design system maintenance",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 19, "SKILL"],
+      [20, 33, "SKILL"],
+      [38, 44, "SKILL"],
+      [45, 51, "SKILL"],
+      [52, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Lighthouse performance auditing and Core Web Vitals optimization",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 22, "SKILL"],
+      [23, 31, "SKILL"],
+      [36, 40, "SKILL"],
+      [41, 44, "SKILL"],
+      [45, 51, "SKILL"],
+      [52, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Webpack Dev Server hot reloading and module federation",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 11, "SKILL"],
+      [12, 18, "SKILL"],
+      [19, 22, "SKILL"],
+      [23, 32, "SKILL"],
+      [37, 43, "SKILL"],
+      [44, 54, "SKILL"]
+    ]
+  },
+  {
+    "text": "Gatsby static site generation and JAMstack architecture",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 13, "SKILL"],
+      [14, 18, "SKILL"],
+      [19, 29, "SKILL"],
+      [34, 42, "SKILL"],
+      [43, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Figma design collaboration and prototyping workflow integration",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 12, "SKILL"],
+      [13, 26, "SKILL"],
+      [31, 42, "SKILL"],
+      [43, 51, "SKILL"],
+      [52, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "PWA manifest configuration and offline functionality implementation",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 12, "SKILL"],
+      [13, 26, "SKILL"],
+      [31, 38, "SKILL"],
+      [39, 52, "SKILL"],
+      [53, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Micro-frontend architecture with module federation patterns",
+    "entities": [
+      [0, 14, "SKILL"],
+      [15, 27, "SKILL"],
+      [33, 39, "SKILL"],
+      [40, 50, "SKILL"],
+      [51, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "WebAssembly integration and browser performance profiling",
+    "entities": [
+      [0, 11, "SKILL"],
+      [12, 23, "SKILL"],
+      [28, 35, "SKILL"],
+      [36, 47, "SKILL"],
+      [48, 57, "SKILL"]
+    ]
+  },{
+    "text": "TensorFlow model development with Keras high-level API implementation",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 16, "SKILL"],
+      [17, 28, "SKILL"],
+      [34, 39, "SKILL"],
+      [40, 50, "SKILL"],
+      [51, 54, "SKILL"],
+      [55, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "PyTorch deep learning framework with CUDA GPU acceleration",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 12, "SKILL"],
+      [13, 21, "SKILL"],
+      [22, 31, "SKILL"],
+      [37, 41, "SKILL"],
+      [42, 45, "SKILL"],
+      [46, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Scikit-learn machine learning algorithms and feature engineering",
+    "entities": [
+      [0, 12, "SKILL"],
+      [13, 20, "SKILL"],
+      [21, 29, "SKILL"],
+      [30, 40, "SKILL"],
+      [45, 52, "SKILL"],
+      [53, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "MLflow experiment tracking and model versioning pipeline",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 17, "SKILL"],
+      [18, 26, "SKILL"],
+      [31, 36, "SKILL"],
+      [37, 47, "SKILL"],
+      [48, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Spark distributed computing for large-scale data processing",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 12, "SKILL"],
+      [13, 24, "SKILL"],
+      [25, 34, "SKILL"],
+      [39, 50, "SKILL"],
+      [51, 55, "SKILL"],
+      [56, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Docker containerization and Kubernetes orchestration for ML workloads",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 22, "SKILL"],
+      [27, 37, "SKILL"],
+      [38, 51, "SKILL"],
+      [56, 58, "SKILL"],
+      [59, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "AWS SageMaker model deployment with EC2 and S3 cloud infrastructure",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 13, "SKILL"],
+      [14, 19, "SKILL"],
+      [20, 30, "SKILL"],
+      [36, 39, "SKILL"],
+      [44, 46, "SKILL"],
+      [47, 52, "SKILL"],
+      [53, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Python pandas data manipulation and NumPy numerical computing",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 13, "SKILL"],
+      [14, 18, "SKILL"],
+      [19, 31, "SKILL"],
+      [36, 41, "SKILL"],
+      [42, 51, "SKILL"],
+      [52, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Natural language processing with NLTK and spaCy tokenization",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 16, "SKILL"],
+      [17, 27, "SKILL"],
+      [33, 37, "SKILL"],
+      [42, 47, "SKILL"],
+      [48, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Computer vision with OpenCV and CNN architecture implementation",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 15, "SKILL"],
+      [21, 27, "SKILL"],
+      [32, 35, "SKILL"],
+      [36, 48, "SKILL"],
+      [49, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Reinforcement learning algorithms with OpenAI Gym environment",
+    "entities": [
+      [0, 13, "SKILL"],
+      [14, 22, "SKILL"],
+      [23, 33, "SKILL"],
+      [39, 45, "SKILL"],
+      [46, 49, "SKILL"],
+      [50, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Airflow pipeline orchestration and workflow automation",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 14, "SKILL"],
+      [15, 23, "SKILL"],
+      [24, 37, "SKILL"],
+      [42, 50, "SKILL"],
+      [51, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Hyperparameter tuning with Optuna and Bayesian optimization",
+    "entities": [
+      [0, 14, "SKILL"],
+      [15, 21, "SKILL"],
+      [27, 33, "SKILL"],
+      [38, 47, "SKILL"],
+      [48, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Model interpretability using SHAP and LIME explainable AI",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 20, "SKILL"],
+      [27, 31, "SKILL"],
+      [36, 40, "SKILL"],
+      [41, 52, "SKILL"],
+      [53, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Time series forecasting with LSTM and ARIMA statistical models",
+    "entities": [
+      [0, 4, "SKILL"],
+      [5, 11, "SKILL"],
+      [12, 23, "SKILL"],
+      [29, 33, "SKILL"],
+      [38, 43, "SKILL"],
+      [44, 55, "SKILL"],
+      [56, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Feature selection and dimensionality reduction with PCA analysis",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 17, "SKILL"],
+      [22, 36, "SKILL"],
+      [37, 46, "SKILL"],
+      [52, 55, "SKILL"],
+      [56, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "A/B testing statistical significance and hypothesis testing methods",
+    "entities": [
+      [0, 11, "SKILL"],
+      [12, 23, "SKILL"],
+      [24, 36, "SKILL"],
+      [41, 51, "SKILL"],
+      [52, 59, "SKILL"],
+      [60, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Neural network architecture design with attention mechanisms",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 15, "SKILL"],
+      [16, 28, "SKILL"],
+      [29, 35, "SKILL"],
+      [41, 50, "SKILL"],
+      [51, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Gradient boosting with XGBoost and LightGBM ensemble methods",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 17, "SKILL"],
+      [23, 30, "SKILL"],
+      [35, 43, "SKILL"],
+      [44, 52, "SKILL"],
+      [53, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "ETL pipeline development using Apache Kafka and Redis caching",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 12, "SKILL"],
+      [13, 24, "SKILL"],
+      [31, 37, "SKILL"],
+      [38, 43, "SKILL"],
+      [48, 53, "SKILL"],
+      [54, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Cross-validation techniques and model evaluation metrics",
+    "entities": [
+      [0, 16, "SKILL"],
+      [17, 27, "SKILL"],
+      [32, 37, "SKILL"],
+      [38, 48, "SKILL"],
+      [49, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Jupyter notebooks and Google Colab collaborative development",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 17, "SKILL"],
+      [22, 28, "SKILL"],
+      [29, 34, "SKILL"],
+      [35, 48, "SKILL"],
+      [49, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "SQL database querying and MongoDB NoSQL document storage",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 12, "SKILL"],
+      [13, 21, "SKILL"],
+      [26, 33, "SKILL"],
+      [34, 39, "SKILL"],
+      [40, 48, "SKILL"],
+      [49, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Transformer architecture with BERT and GPT language models",
+    "entities": [
+      [0, 11, "SKILL"],
+      [12, 24, "SKILL"],
+      [30, 34, "SKILL"],
+      [39, 42, "SKILL"],
+      [43, 51, "SKILL"],
+      [52, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "MLOps practices with Jenkins CI/CD and model monitoring",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 15, "SKILL"],
+      [21, 28, "SKILL"],
+      [29, 34, "SKILL"],
+      [39, 44, "SKILL"],
+      [45, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Anomaly detection algorithms and unsupervised learning techniques",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 17, "SKILL"],
+      [18, 28, "SKILL"],
+      [33, 45, "SKILL"],
+      [46, 54, "SKILL"],
+      [55, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Graph neural networks with PyTorch Geometric library",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 13, "SKILL"],
+      [14, 22, "SKILL"],
+      [28, 35, "SKILL"],
+      [36, 45, "SKILL"],
+      [46, 53, "SKILL"]
+    ]
+  },
+  {
+    "text": "Distributed training with Horovod and multi-GPU scaling",
+    "entities": [
+      [0, 11, "SKILL"],
+      [12, 20, "SKILL"],
+      [26, 33, "SKILL"],
+      [38, 47, "SKILL"],
+      [48, 55, "SKILL"]
+    ]
+  },
+  {
+    "text": "Model quantization and pruning for edge device deployment",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 18, "SKILL"],
+      [23, 30, "SKILL"],
+      [35, 39, "SKILL"],
+      [40, 46, "SKILL"],
+      [47, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "AutoML frameworks with H2O.ai and Google AutoML platform",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 17, "SKILL"],
+      [23, 29, "SKILL"],
+      [34, 40, "SKILL"],
+      [41, 47, "SKILL"],
+      [48, 56, "SKILL"]
+    ]
+  },{
+    "text": "Docker containerization with Kubernetes orchestration and Helm charts",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 22, "SKILL"],
+      [28, 38, "SKILL"],
+      [39, 52, "SKILL"],
+      [57, 61, "SKILL"],
+      [62, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Terraform infrastructure provisioning with AWS CloudFormation templates",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 24, "SKILL"],
+      [25, 37, "SKILL"],
+      [43, 46, "SKILL"],
+      [47, 62, "SKILL"],
+      [63, 72, "SKILL"]
+    ]
+  },
+  {
+    "text": "Jenkins CI/CD pipeline automation with GitLab runners and SonarQube",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 13, "SKILL"],
+      [14, 22, "SKILL"],
+      [23, 33, "SKILL"],
+      [39, 45, "SKILL"],
+      [46, 53, "SKILL"],
+      [58, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Prometheus monitoring and Grafana dashboards for microservices observability",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 21, "SKILL"],
+      [26, 33, "SKILL"],
+      [34, 44, "SKILL"],
+      [49, 62, "SKILL"],
+      [63, 76, "SKILL"]
+    ]
+  },
+  {
+    "text": "Ansible configuration management with Vault secrets encryption",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 21, "SKILL"],
+      [22, 32, "SKILL"],
+      [38, 43, "SKILL"],
+      [44, 51, "SKILL"],
+      [52, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "AWS EKS cluster deployment with Istio service mesh integration",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 7, "SKILL"],
+      [8, 15, "SKILL"],
+      [16, 26, "SKILL"],
+      [32, 37, "SKILL"],
+      [38, 45, "SKILL"],
+      [46, 50, "SKILL"],
+      [51, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Azure DevOps pipelines with ARM templates and Key Vault integration",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 12, "SKILL"],
+      [13, 22, "SKILL"],
+      [28, 31, "SKILL"],
+      [32, 41, "SKILL"],
+      [46, 49, "SKILL"],
+      [50, 55, "SKILL"],
+      [56, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Google Cloud Platform with Cloud Build and Cloud Functions deployment",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 12, "SKILL"],
+      [13, 21, "SKILL"],
+      [27, 32, "SKILL"],
+      [33, 38, "SKILL"],
+      [43, 48, "SKILL"],
+      [49, 58, "SKILL"],
+      [59, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Nginx load balancing with HAProxy and SSL certificate management",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 10, "SKILL"],
+      [11, 20, "SKILL"],
+      [26, 33, "SKILL"],
+      [38, 41, "SKILL"],
+      [42, 53, "SKILL"],
+      [54, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "ElasticSearch logging with Kibana visualization and Logstash processing",
+    "entities": [
+      [0, 13, "SKILL"],
+      [14, 21, "SKILL"],
+      [27, 33, "SKILL"],
+      [34, 47, "SKILL"],
+      [52, 60, "SKILL"],
+      [61, 71, "SKILL"]
+    ]
+  },
+  {
+    "text": "Redis caching with MongoDB database replication and sharding",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 13, "SKILL"],
+      [19, 26, "SKILL"],
+      [27, 35, "SKILL"],
+      [36, 47, "SKILL"],
+      [52, 60, "SKILL"]
+    ]
+  },
+  {
+    "text": "Kafka message streaming with Apache Spark data processing",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 13, "SKILL"],
+      [14, 23, "SKILL"],
+      [29, 35, "SKILL"],
+      [36, 41, "SKILL"],
+      [42, 46, "SKILL"],
+      [47, 57, "SKILL"]
+    ]
+  },
+  {
+    "text": "Vault secrets management with HashiCorp Consul service discovery",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 13, "SKILL"],
+      [14, 24, "SKILL"],
+      [30, 39, "SKILL"],
+      [40, 46, "SKILL"],
+      [47, 54, "SKILL"],
+      [55, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Datadog APM monitoring with New Relic performance analytics",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 11, "SKILL"],
+      [12, 22, "SKILL"],
+      [28, 31, "SKILL"],
+      [32, 37, "SKILL"],
+      [38, 49, "SKILL"],
+      [50, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Splunk log analysis with ELK stack implementation and alerting",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 10, "SKILL"],
+      [11, 19, "SKILL"],
+      [25, 28, "SKILL"],
+      [29, 34, "SKILL"],
+      [35, 49, "SKILL"],
+      [54, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "GitOps deployment with ArgoCD and Flux continuous delivery",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 17, "SKILL"],
+      [23, 29, "SKILL"],
+      [34, 38, "SKILL"],
+      [39, 49, "SKILL"],
+      [50, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Puppet configuration automation with Chef infrastructure management",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 20, "SKILL"],
+      [21, 31, "SKILL"],
+      [37, 41, "SKILL"],
+      [42, 56, "SKILL"],
+      [57, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Zabbix network monitoring with Nagios alerting and SNMP protocols",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 14, "SKILL"],
+      [15, 25, "SKILL"],
+      [31, 37, "SKILL"],
+      [38, 46, "SKILL"],
+      [51, 55, "SKILL"],
+      [56, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Slack integration with PagerDuty incident management and webhooks",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 17, "SKILL"],
+      [23, 32, "SKILL"],
+      [33, 41, "SKILL"],
+      [42, 52, "SKILL"],
+      [57, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Serverless architecture with AWS Lambda and API Gateway deployment",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 23, "SKILL"],
+      [29, 32, "SKILL"],
+      [33, 39, "SKILL"],
+      [44, 47, "SKILL"],
+      [48, 55, "SKILL"],
+      [56, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Chaos engineering with Gremlin fault injection and resilience testing",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 17, "SKILL"],
+      [23, 30, "SKILL"],
+      [31, 36, "SKILL"],
+      [37, 46, "SKILL"],
+      [51, 61, "SKILL"],
+      [62, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Jaeger distributed tracing with OpenTelemetry instrumentation",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 18, "SKILL"],
+      [19, 26, "SKILL"],
+      [32, 45, "SKILL"],
+      [46, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "Fluentd log aggregation with Beats data collection and parsing",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 11, "SKILL"],
+      [12, 23, "SKILL"],
+      [29, 34, "SKILL"],
+      [35, 39, "SKILL"],
+      [40, 50, "SKILL"],
+      [55, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Consul service mesh with Envoy proxy configuration and load balancing",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 14, "SKILL"],
+      [15, 19, "SKILL"],
+      [25, 30, "SKILL"],
+      [31, 36, "SKILL"],
+      [37, 50, "SKILL"],
+      [55, 59, "SKILL"],
+      [60, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Tekton pipeline orchestration with Kaniko container image building",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 15, "SKILL"],
+      [16, 29, "SKILL"],
+      [35, 41, "SKILL"],
+      [42, 51, "SKILL"],
+      [52, 57, "SKILL"],
+      [58, 66, "SKILL"]
+    ]
+  },{
+    "text": "Apache Spark data processing with PySpark machine learning pipelines",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 12, "SKILL"],
+      [13, 17, "SKILL"],
+      [18, 28, "SKILL"],
+      [34, 41, "SKILL"],
+      [42, 49, "SKILL"],
+      [50, 58, "SKILL"],
+      [59, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Hadoop ecosystem with HDFS storage and MapReduce batch processing",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 16, "SKILL"],
+      [22, 26, "SKILL"],
+      [27, 34, "SKILL"],
+      [39, 48, "SKILL"],
+      [49, 54, "SKILL"],
+      [55, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Kafka streaming with Confluent Schema Registry and AVRO serialization",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 12, "SKILL"],
+      [13, 22, "SKILL"],
+      [28, 37, "SKILL"],
+      [38, 44, "SKILL"],
+      [45, 53, "SKILL"],
+      [58, 62, "SKILL"],
+      [63, 76, "SKILL"]
+    ]
+  },
+  {
+    "text": "Snowflake data warehousing with dbt transformation and Airflow orchestration",
+    "entities": [
+      [0, 9, "SKILL"],
+      [10, 14, "SKILL"],
+      [15, 27, "SKILL"],
+      [33, 36, "SKILL"],
+      [37, 51, "SKILL"],
+      [56, 63, "SKILL"],
+      [64, 77, "SKILL"]
+    ]
+  },
+  {
+    "text": "AWS Glue ETL pipelines with S3 data lake and Redshift analytics",
+    "entities": [
+      [0, 3, "SKILL"],
+      [4, 8, "SKILL"],
+      [9, 12, "SKILL"],
+      [13, 22, "SKILL"],
+      [28, 30, "SKILL"],
+      [31, 35, "SKILL"],
+      [36, 40, "SKILL"],
+      [45, 53, "SKILL"],
+      [54, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Airflow workflow orchestration with Docker containerization",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 14, "SKILL"],
+      [15, 23, "SKILL"],
+      [24, 37, "SKILL"],
+      [43, 49, "SKILL"],
+      [50, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "BigQuery data analysis with Dataflow streaming and Pub/Sub messaging",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 13, "SKILL"],
+      [14, 22, "SKILL"],
+      [28, 36, "SKILL"],
+      [37, 46, "SKILL"],
+      [51, 57, "SKILL"],
+      [58, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Beam unified processing with TensorFlow Extended MLOps pipeline",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 11, "SKILL"],
+      [12, 19, "SKILL"],
+      [20, 30, "SKILL"],
+      [36, 46, "SKILL"],
+      [47, 55, "SKILL"],
+      [56, 61, "SKILL"],
+      [62, 70, "SKILL"]
+    ]
+  },
+  {
+    "text": "Databricks collaborative analytics with MLflow model versioning",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 24, "SKILL"],
+      [25, 34, "SKILL"],
+      [40, 46, "SKILL"],
+      [47, 52, "SKILL"],
+      [53, 63, "SKILL"]
+    ]
+  },
+  {
+    "text": "MongoDB document database with Elasticsearch indexing and aggregation",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 16, "SKILL"],
+      [17, 25, "SKILL"],
+      [31, 44, "SKILL"],
+      [45, 53, "SKILL"],
+      [58, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Cassandra NoSQL database with Spark SQL analytics",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 16, "SKILL"],
+      [17, 22, "SKILL"],
+      [23, 31, "SKILL"],
+      [37, 42, "SKILL"],
+      [43, 46, "SKILL"],
+      [47, 56, "SKILL"]
+    ]
+  },
+  {
+    "text": "Delta Lake data versioning with Apache Iceberg table format",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 10, "SKILL"],
+      [11, 15, "SKILL"],
+      [16, 26, "SKILL"],
+      [32, 38, "SKILL"],
+      [39, 46, "SKILL"],
+      [47, 52, "SKILL"],
+      [53, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Flink stream processing with Kubernetes deployment and scaling",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 12, "SKILL"],
+      [13, 19, "SKILL"],
+      [20, 30, "SKILL"],
+      [36, 46, "SKILL"],
+      [47, 57, "SKILL"],
+      [62, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Presto distributed SQL queries with Hive metastore integration",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 18, "SKILL"],
+      [19, 22, "SKILL"],
+      [23, 30, "SKILL"],
+      [36, 40, "SKILL"],
+      [41, 50, "SKILL"],
+      [51, 62, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Pulsar messaging with Schema Registry and geo-replication",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 13, "SKILL"],
+      [14, 23, "SKILL"],
+      [29, 35, "SKILL"],
+      [36, 44, "SKILL"],
+      [49, 53, "SKILL"],
+      [54, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Trino federated queries with Parquet columnar storage optimization",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 15, "SKILL"],
+      [16, 23, "SKILL"],
+      [29, 36, "SKILL"],
+      [37, 45, "SKILL"],
+      [46, 53, "SKILL"],
+      [54, 66, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Superset data visualization with Grafana dashboard integration",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 15, "SKILL"],
+      [16, 20, "SKILL"],
+      [21, 34, "SKILL"],
+      [40, 47, "SKILL"],
+      [48, 57, "SKILL"],
+      [58, 69, "SKILL"]
+    ]
+  },
+  {
+    "text": "Prefect workflow orchestration with data quality monitoring",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 16, "SKILL"],
+      [17, 30, "SKILL"],
+      [36, 40, "SKILL"],
+      [41, 48, "SKILL"],
+      [49, 59, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Druid real-time analytics with Kafka ingestion and rollup",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 12, "SKILL"],
+      [13, 17, "SKILL"],
+      [18, 22, "SKILL"],
+      [23, 32, "SKILL"],
+      [38, 43, "SKILL"],
+      [44, 53, "SKILL"],
+      [58, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Fivetran data integration with Stitch ETL automation and monitoring",
+    "entities": [
+      [0, 8, "SKILL"],
+      [9, 13, "SKILL"],
+      [14, 25, "SKILL"],
+      [31, 37, "SKILL"],
+      [38, 41, "SKILL"],
+      [42, 52, "SKILL"],
+      [57, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Great Expectations data validation with Pandas DataFrame processing",
+    "entities": [
+      [0, 5, "SKILL"],
+      [6, 18, "SKILL"],
+      [19, 23, "SKILL"],
+      [24, 34, "SKILL"],
+      [40, 46, "SKILL"],
+      [47, 56, "SKILL"],
+      [57, 67, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Hudi transactional data lakes with Spark streaming updates",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 11, "SKILL"],
+      [12, 25, "SKILL"],
+      [26, 30, "SKILL"],
+      [31, 36, "SKILL"],
+      [42, 47, "SKILL"],
+      [48, 57, "SKILL"],
+      [58, 65, "SKILL"]
+    ]
+  },
+  {
+    "text": "Prometheus metrics collection with InfluxDB time series database",
+    "entities": [
+      [0, 10, "SKILL"],
+      [11, 18, "SKILL"],
+      [19, 29, "SKILL"],
+      [35, 43, "SKILL"],
+      [44, 48, "SKILL"],
+      [49, 55, "SKILL"],
+      [56, 64, "SKILL"]
+    ]
+  },
+  {
+    "text": "Apache Nifi data flow automation with MinIO object storage",
+    "entities": [
+      [0, 6, "SKILL"],
+      [7, 11, "SKILL"],
+      [12, 16, "SKILL"],
+      [17, 21, "SKILL"],
+      [22, 32, "SKILL"],
+      [38, 43, "SKILL"],
+      [44, 50, "SKILL"],
+      [51, 58, "SKILL"]
+    ]
+  },
+  {
+    "text": "Tableau data visualization with Power BI dashboard development",
+    "entities": [
+      [0, 7, "SKILL"],
+      [8, 12, "SKILL"],
+      [13, 26, "SKILL"],
+      [32, 37, "SKILL"],
+      [38, 40, "SKILL"],
+      [41, 50, "SKILL"],
+      [51, 62, "SKILL"]
+    ]
+  },{
+    "text": "Strong communication and leadership skills.",
+    "entities": [
+      [7, 19, "SKILL"],
+      [24, 34, "SKILL"]
+    ]
+  },
+  {
+    "text": "Experience in Python, Django, and problem solving.",
+    "entities": [
+      [15, 21, "SKILL"],
+      [23, 29, "SKILL"],
+      [35, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Key strengths are teamwork, time management and adaptability.",
+    "entities": [
+      [19, 27, "SKILL"],
+      [29, 44, "SKILL"],
+      [49, 61, "SKILL"]
+    ]
+  },
+  {
+    "text": "I excel in negotiation and conflict resolution.",
+    "entities": [
+      [12, 23, "SKILL"],
+      [28, 47, "SKILL"]
+    ]
+  },
+  {
+    "text": "Skills include HTML, CSS, and collaboration.",
+    "entities": [
+      [14, 18, "SKILL"],
+      [20, 23, "SKILL"],
+      [29, 41, "SKILL"]
+    ]
+  },
+  {
+    "text": "He has experience in React and analytical thinking.",
+    "entities": [
+      [21, 26, "SKILL"],
+      [31, 50, "SKILL"]
+    ]
+  },
+  {
+    "text": "Excellent at multitasking and stress management.",
+    "entities": [
+      [13, 25, "SKILL"],
+      [30, 47, "SKILL"]
+    ]
+  },
+  {
+    "text": "Worked on projects requiring emotional intelligence and critical thinking.",
+    "entities": [
+      [30, 51, "SKILL"],
+      [56, 73, "SKILL"]
+    ]
+  },
+  {
+    "text": "Strong background in MySQL, Java, and planning.",
+    "entities": [
+      [21, 26, "SKILL"],
+      [28, 32, "SKILL"],
+      [38, 46, "SKILL"]
+    ]
+  },
+  {
+    "text": "Valued for creativity and attention to detail.",
+    "entities": [
+      [13, 23, "SKILL"],
+      [28, 48, "SKILL"]
+    ]
+  }
+]
