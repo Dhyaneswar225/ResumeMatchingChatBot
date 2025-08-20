@@ -48,21 +48,16 @@ chatbot-app/
    ```bash
    cd backend
    ```
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
-4. Install the spaCy English model:
+3. Install the spaCy English model:
    ```bash
    python -m spacy download en_core_web_sm
    ```
-5. (Optional) Train a custom NER model:
+4. (Optional) Train a custom NER model:
    - Prepare a `train_data.json` file in the `backend/` directory with the format:
      ```json
      [
@@ -75,7 +70,7 @@ chatbot-app/
      python train_skill_ner.py
      ```
    - This generates a `skill_ner_model` directory in `backend/`.
-6. Start the backend server:
+5. Start the backend server:
    ```bash
    uvicorn main:app --reload
    ```
