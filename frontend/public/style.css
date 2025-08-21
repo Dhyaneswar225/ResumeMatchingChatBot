@@ -1,182 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background: linear-gradient(135deg, #e0e7ff 0%, #f3e8ff 100%);
-    margin: 0;
-    padding: 1rem;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    @apply bg-gradient-to-br from-purple-100 to-blue-100;
 }
 
-.chat-container {
-    width: 90%;
-    max-width: 900px;
-    min-height: 80vh;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+#chat-container {
+    @apply max-w-5xl mx-auto bg-white rounded-xl shadow-2xl;
 }
 
-.chat-header {
-    background: #4f46e5;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 12px 12px 0 0;
+header {
+    @apply bg-indigo-600 text-white p-6 text-center rounded-t-xl;
 }
 
-.chat-header h1 {
-    margin: 0;
-    font-size: 1.8rem;
-    font-weight: 500;
+header h1 {
+    @apply text-3xl font-bold;
 }
 
-.chat-window {
-    flex-grow: 1;
-    overflow-y: auto;
-    padding: 1.5rem;
-    background: #f9fafb;
-    border-bottom: 1px solid #e5e7eb;
-    scroll-behavior: smooth;
+header p {
+    @apply text-sm mt-2 text-indigo-100;
 }
 
-.user-message, .bot-message {
-    display: flex;
-    align-items: flex-start;
-    margin: 0.75rem 0;
-    padding: 0.75rem 1rem;
-    border-radius: 12px;
-    max-width: 80%;
-    animation: fadeIn 0.3s ease-in;
+#chat-window {
+    @apply min-h-[1000px] overflow-y-auto p-8 bg-gray-50;
+}
+
+.message {
+    @apply flex mb-4 items-start;
 }
 
 .user-message {
-    background: #4f46e5;
-    color: white;
-    margin-left: auto;
-    border-bottom-right-radius: 2px;
+    @apply justify-end;
 }
 
 .bot-message {
-    background: #e5e7eb;
-    color: #1f2937;
-    margin-right: auto;
-    border-bottom-left-radius: 2px;
+    @apply justify-start;
 }
 
 .avatar {
-    margin-right: 0.5rem;
-    font-size: 1.2rem;
+    @apply text-2xl mr-2 ml-2;
 }
 
 .message-text {
-    flex-grow: 1;
+    @apply max-w-[70%] p-4 rounded-lg shadow-md;
 }
 
-.chat-input {
-    display: flex;
-    gap: 0.5rem;
-    padding: 1rem;
-    background: #ffffff;
-    border-top: 1px solid #e5e7eb;
+.user-message .message-text {
+    @apply bg-indigo-500 text-white;
+}
+
+.bot-message .message-text {
+    @apply bg-blue-100 text-gray-800 border border-blue-200; /* Ensure bot messages have background */
+}
+
+.message-text ul {
+    @apply list-disc pl-5 mt-2;
+}
+
+.message-text ul li {
+    @apply mb-1 text-gray-700;
+}
+
+.message-text h3 {
+    @apply text-lg font-semibold mb-2 text-indigo-700;
+}
+
+#input-container {
+    @apply flex p-6 bg-white border-t border-gray-200 sticky bottom-0 rounded-b-xl;
 }
 
 #user-input {
-    flex-grow: 1;
-    padding: 0.75rem;
-    border: 1px solid #d1d5db;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.2s;
+    @apply flex-grow p-4 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-gray-50 text-gray-800 placeholder-gray-400;
 }
 
-#user-input:focus {
-    outline: none;
-    border-color: #4f46e5;
-    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+#send-btn {
+    @apply px-6 py-4 bg-indigo-600 text-white rounded-r-lg hover:bg-indigo-700 transition-colors;
 }
 
-#upload-btn, #send-btn {
-    padding: 0.75rem 1.5rem;
-    background: #4f46e5;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.2s, transform 0.1s;
+#upload-btn {
+    @apply px-6 py-4 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors ml-3;
 }
 
-#upload-btn:hover, #send-btn:hover {
-    background: #4338ca;
-    transform: translateY(-1px);
+#resume {
+    @apply hidden;
 }
 
 .feedback-prompt {
-    background: #d1fae5;
-    color: #065f46;
-    border: 1px solid #6ee7b7;
-    padding: 1rem;
-    border-radius: 8px;
-    font-size: 0.95rem;
+    @apply mt-3 p-3 bg-yellow-50 border-l-4 border-yellow-400 rounded-lg text-gray-800;
+    /* Optionally unify with bot background: @apply bg-blue-100 border-l-4 border-blue-200; */
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+#upload-progress {
+    @apply h-1 bg-yellow-400 transition-all duration-1000;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .chat-container {
-        width: 95%;
-        min-height: 90vh;
-    }
-
-    .chat-header h1 {
-        font-size: 1.5rem;
-    }
-
-    .chat-window {
-        padding: 1rem;
-    }
-
-    .user-message, .bot-message {
-        max-width: 85%;
-        font-size: 0.9rem;
-    }
-
-    #user-input, #upload-btn, #send-btn {
-        font-size: 0.9rem;
-        padding: 0.6rem;
-    }
+footer {
+    @apply bg-gray-900 text-white text-center p-6 mt-6 rounded-xl;
 }
 
-@media (max-width: 480px) {
-    .chat-container {
-        width: 100%;
-        border-radius: 0;
-        min-height: 100vh;
-    }
-
-    .chat-header h1 {
-        font-size: 1.2rem;
-    }
-
-    .chat-input {
-        flex-wrap: wrap;
-    }
-
-    #upload-btn, #send-btn {
-        width: 100%;
-        margin-top: 0.5rem;
-    }
-
-    #user-input {
-        width: 100%;
-    }
+footer a {
+    @apply text-yellow-400 hover:text-yellow-300;
 }

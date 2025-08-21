@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Matching Chatbot</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Resume Analyzer Chatbot</title>
+    <link rel="stylesheet" href="tailwind.css?v=2">
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
-<body>
-    <div class="chat-container">
-        <header class="chat-header">
-            <h1>Resume Matching Chatbot</h1>
+<body class="bg-gradient-to-br from-purple-100 to-blue-100">
+    <div id="chat-container" class="min-h-screen max-w-5xl mx-auto bg-white rounded-xl shadow-2xl">
+        <header class="bg-indigo-600 text-white p-6 text-center rounded-t-xl">
+            <h1 class="text-3xl font-bold">Resume Analyzer Chatbot</h1>
+            <p class="text-sm mt-2 text-indigo-100">Upload your resume and job description for vibrant AI-powered feedback!</p>
         </header>
-        <div class="chat-window" id="chat-window">
-            <div class="bot-message">
-                <span class="avatar">🤖</span>
-                <span class="message-text">Hi! I'm your Resume Matching Assistant. Please upload your resume as a PDF to start.</span>
-            </div>
+        <div id="chat-window" class="p-8 bg-gray-50 min-h-[1000px] overflow-y-auto">
+            <div class="bg-gradient-to-r from-green-400 to-blue-500 p-6 text-white rounded-lg shadow-md">Hello!Please upload your resume</div>
         </div>
-        <div class="chat-input">
-            <input type="file" id="resume" accept=".pdf,.txt" style="display: none;">
-            <button id="upload-btn">Upload Resume</button>
-            <input type="text" id="user-input" placeholder="Type your job description or feedback...">
-            <button id="send-btn">Send</button>
+        <div id="upload-progress" class="h-1 bg-yellow-400 transition-all duration-1000"></div>
+        <div id="input-container" class="flex p-6 bg-white border-t border-gray-200 sticky bottom-0 rounded-b-xl">
+            <input type="text" id="user-input" class="flex-grow p-4 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-gray-50 text-gray-800 placeholder-gray-400" placeholder="Type your job description or feedback ...">
+            <button id="send-btn" class="px-6 py-4 bg-indigo-600 text-white rounded-r-lg hover:bg-indigo-700 transition-colors">Send</button>
+            <button id="upload-btn" class="px-6 py-4 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors ml-3">Upload Resume</button>
+            <input type="file" id="resume" accept=".pdf,.txt" class="hidden">
         </div>
     </div>
+    <footer class="bg-gray-900 text-white text-center p-6 mt-6 rounded-xl max-w-5xl mx-auto">
+        <p>Powered by AI | <a href="https://x.ai" target="_blank" class="text-yellow-400 hover:text-yellow-300">Learn more about our technology</a></p>
+    </footer>
     <script src="script.js"></script>
+    <script>
+        console.log('Checking Tailwind CSS...');
+        const link = document.querySelector('link[href*="tailwind.css"]');
+        console.log('Tailwind CSS link:', link ? 'Found' : 'Not found');
+        fetch('tailwind.css').then(res => console.log('Tailwind CSS status:', res.status));
+    </script>
 </body>
 </html>

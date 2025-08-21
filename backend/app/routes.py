@@ -1,11 +1,11 @@
 from fastapi import APIRouter, UploadFile, File, Form, HTTPException
 from app.nlp import match_resume_with_jd, save_rejected_skills, load_rejected_skills
-from app.models import FeedbackRequest
+from app.models import MatchResponse, FeedbackRequest
 import io
 
 router = APIRouter()
 
-@router.post("/match")
+@router.post("/match", response_model=MatchResponse)
 async def match_resume(
     resume: UploadFile = File(...),
     job_description: str = Form(...)
@@ -24,7 +24,22 @@ async def match_resume(
             "similarity_score": result["jd_match_pct"],
             "matched_keywords": result["matched_skills"],
             "resume_skills": result["resume_skills"],
-            "jd_skills": result["jd_skills"]
+            "jd_skills": result["jd_skills"],
+            "ats_score": result["ats_score"],
+            "overall_score": result["overall_score"],
+            "ats_issues": result["ats_issues"],
+            "ats_suggestions": result["ats_suggestions"],
+            "grammar_errors": result["grammar_errors"],
+            "quantifiable_pct": result["quantifiable_pct"],
+            "action_verb_pct": result["action_verb_pct"],
+            "repeated_words": result["repeated_words"],
+            "buzzwords_found": result["buzzwords_found"],
+            "filler_found": result["filler_found"],
+            "rewrite_suggestions": result["rewrite_suggestions"],
+            "hard_skills_suggestions": result["hard_skills_suggestions"],
+            "soft_skills_suggestions": result["soft_skills_suggestions"],
+            "sections_detected": result["sections_detected"],
+            "suggestions": result["suggestions"]
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -39,7 +54,6 @@ async def submit_feedback(feedback: FeedbackRequest):
         message = f"Feedback recorded. Removed skills: {', '.join(removed_skills) if removed_skills else 'None'}."
         if suggested_skills:
             message += f" Suggested skills: {', '.join(suggested_skills)} added to suggested skills."
-        # Reload rejected skills for the response
         rejected_skills = load_rejected_skills()
         message += f" Current rejected skills: {', '.join(rejected_skills) if rejected_skills else 'None'}."
         return {"message": message}

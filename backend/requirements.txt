@@ -14,3 +14,4 @@ numpy==1.26.4
 dateparser==1.2.0
 pycountry
 geonamescache
+language-tool-python==2.8
