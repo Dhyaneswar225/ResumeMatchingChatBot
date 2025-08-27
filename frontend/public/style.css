@@ -4,31 +4,39 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    @apply bg-gradient-to-br from-purple-100 to-blue-100;
+    @apply bg-gray-50;
+}
+
+.flex {
+    @apply h-screen;
+}
+
+.w-64 {
+    @apply min-h-full;
 }
 
 #chat-container {
-    @apply max-w-5xl mx-auto bg-white rounded-xl shadow-2xl;
+    @apply max-w-3xl mx-auto;
 }
 
 header {
-    @apply bg-indigo-600 text-white p-6 text-center rounded-t-xl;
+    @apply bg-brand text-white p-6 text-center rounded-t-none shadow-md;
 }
 
 header h1 {
-    @apply text-3xl font-bold;
+    @apply text-2xl font-bold;
 }
 
 header p {
-    @apply text-sm mt-2 text-indigo-100;
+    @apply text-sm mt-2;
 }
 
 #chat-window {
-    @apply min-h-[1000px] overflow-y-auto p-8 bg-gray-50;
+    @apply h-[calc(100vh-12rem)] overflow-y-auto p-4 bg-white shadow-inner;
 }
 
 .message {
-    @apply flex mb-4 items-start;
+    @apply flex mb-4 items-start max-w-[80%] p-3 rounded-lg shadow-md transition-all duration-300;
 }
 
 .user-message {
@@ -40,66 +48,84 @@ header p {
 }
 
 .avatar {
-    @apply text-2xl mr-2 ml-2;
+    @apply text-2xl mr-2 ml-2 flex-shrink-0;
 }
 
 .message-text {
-    @apply max-w-[70%] p-4 rounded-lg shadow-md;
+    @apply p-2 rounded-md break-words;
 }
 
 .user-message .message-text {
-    @apply bg-indigo-500 text-white;
+    @apply bg-brand-light text-gray-800;
 }
 
 .bot-message .message-text {
-    @apply bg-blue-100 text-gray-800 border border-blue-200; /* Ensure bot messages have background */
+    @apply bg-gray-200 text-gray-800;
 }
 
 .message-text ul {
     @apply list-disc pl-5 mt-2;
 }
 
-.message-text ul li {
-    @apply mb-1 text-gray-700;
-}
-
 .message-text h3 {
-    @apply text-lg font-semibold mb-2 text-indigo-700;
+    @apply font-bold text-lg mt-2 mb-1;
 }
 
-#input-container {
-    @apply flex p-6 bg-white border-t border-gray-200 sticky bottom-0 rounded-b-xl;
+.message-text p {
+    @apply mb-1;
+}
+
+#input-container, .w-64 {
+    @apply p-4 bg-white border-t border-gray-200;
 }
 
 #user-input {
-    @apply flex-grow p-4 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-gray-50 text-gray-800 placeholder-gray-400;
+    @apply w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand;
 }
 
-#send-btn {
-    @apply px-6 py-4 bg-indigo-600 text-white rounded-r-lg hover:bg-indigo-700 transition-colors;
-}
-
-#upload-btn {
-    @apply px-6 py-4 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors ml-3;
-}
-
-#resume {
-    @apply hidden;
-}
-
-.feedback-prompt {
-    @apply mt-3 p-3 bg-yellow-50 border-l-4 border-yellow-400 rounded-lg text-gray-800;
-    /* Optionally unify with bot background: @apply bg-blue-100 border-l-4 border-blue-200; */
+#send-btn, #upload-btn {
+    @apply w-full px-4 py-2 bg-brand text-white rounded-lg hover:bg-brand-dark transition-colors duration-200;
 }
 
 #upload-progress {
-    @apply h-1 bg-yellow-400 transition-all duration-1000;
+    @apply h-1 bg-brand-light transition-all duration-1000;
 }
 
-footer {
-    @apply bg-gray-900 text-white text-center p-6 mt-6 rounded-xl;
+#loading .animate-spin {
+    @apply border-4 h-10 w-10;
 }
 
-footer a {
-    @apply text-yellow-400 hover:text-yellow-300;
+.animate-fade-in {
+    @apply opacity-0;
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    .flex {
+        @apply flex-col;
+    }
+    .w-64 {
+        @apply w-full;
+    }
+    #chat-window {
+        @apply h-[calc(100vh-20rem)];
+    }
+    .message {
+        @apply max-w-[90%];
+    }
 }
