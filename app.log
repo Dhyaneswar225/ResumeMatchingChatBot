@@ -1,0 +1,18 @@
+2025-08-26 03:59:39,034 - INFO - Loading tokenizer for distilgpt2
+2025-08-26 03:59:39,533 - INFO - Loading model distilgpt2
+2025-08-26 03:59:39,735 - ERROR - Failed to load distilgpt2: Failed to import transformers.models.gpt2.modeling_gpt2 because of the following error (look up to see its traceback):
+Failed to import transformers.generation.utils because of the following error (look up to see its traceback):
+cannot import name 'split_torch_state_dict_into_shards' from 'huggingface_hub' (C:\Users\dhyan\AppData\Local\Programs\Python\Python39\lib\site-packages\huggingface_hub\__init__.py)
+2025-08-26 04:02:48,697 - INFO - Loading tokenizer for distilgpt2
+2025-08-26 04:02:48,951 - INFO - Loading model distilgpt2
+2025-08-26 04:02:49,812 - INFO - Model and tokenizer loaded successfully.
+2025-08-26 04:02:49,812 - INFO - Input prepared successfully.
+2025-08-26 04:02:50,954 - INFO - Generation successful.
+2025-08-26 04:10:38,368 - INFO - Loading tokenizer for tiiuae/falcon-7b-instruct
+2025-08-26 04:10:39,308 - INFO - Loading model tiiuae/falcon-7b-instruct
+2025-08-26 04:37:43,007 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 4dc95556-ac31-4640-9f0a-1c5f75afe87a)')' thrown while requesting HEAD https://huggingface.co/tiiuae/falcon-7b-instruct/resolve/main/model-00002-of-00002.safetensors
+2025-08-26 04:37:43,016 - ERROR - Failed to load tiiuae/falcon-7b-instruct: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like tiiuae/falcon-7b-instruct is not the path to a directory containing a file named model-00002-of-00002.safetensors.
+Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+2025-08-26 04:37:43,016 - WARNING - Using fallback response.
+2025-08-26 04:47:33,562 - INFO - Loading tokenizer for tiiuae/falcon-7b-instruct
+2025-08-26 04:47:33,936 - INFO - Loading model tiiuae/falcon-7b-instruct

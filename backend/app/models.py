@@ -20,10 +20,13 @@ class MatchResponse(BaseModel):
     buzzwords_found: List[str]
     filler_found: List[str]
     rewrite_suggestions: List[str]
-    hard_skills_suggestions: List[str]
-    soft_skills_suggestions: List[str]
     sections_detected: List[str]
     suggestions: List[str]
+    resume_hard_skills: List[str]
+    resume_soft_skills: List[str]
+    jd_hard_skills: List[str]
+    jd_soft_skills: List[str]
+    resume_skills_by_section: Dict[str, List[str]]
 
 class FeedbackRequest(BaseModel):
     removed_skills: List[str]

@@ -34,94 +34,135 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle send button click
     sendBtn.addEventListener('click', async () => {
         const message = userInput.value.trim();
-        if (!message && !awaitingFeedback) return;
+        if (!message && !awaitingFeedback) {
+            addMessage('bot', 'Please upload a resume and provide a job description.');
+            return;
+        }
 
-        if (message && !awaitingFeedback) {
+        if (awaitingFeedback) {
+            const removedSkills = message.split(',').map(s => s.trim()).filter(s => s);
+            await sendFeedback(removedSkills);
+            return;
+        }
+
+        if (!resumeFile) {
+            addMessage('bot', 'Please upload a resume first.');
+            return;
+        }
+
+        if (message) {
             addMessage('user', message);
             userInput.value = '';
+            uploadProgress.style.width = '50%';
+
+            const formData = new FormData();
+            formData.append('resume', resumeFile);
+            formData.append('job_description', message);
+
             try {
-                const formData = new FormData();
-                formData.append('resume', resumeFile);
-                formData.append('job_description', message);
                 const response = await fetch('/api/match', {
                     method: 'POST',
                     body: formData
                 });
-                if (!response.ok) throw new Error('Error analyzing resume');
-                const data = await response.json();
-                lastMatchResult = data;
 
-                let botMessage = `
-                    <strong>Resume Analysis Results</strong><br><br>
-                    <strong>Skill Match:</strong> ${data.similarity_score}% with matched skills: ${data.matched_keywords.join(', ') || 'None'}<br>
-                    <strong>ATS Score:</strong> ${data.ats_score}%<br>
-                    <strong>Overall Resume Score:</strong> ${data.overall_score}%<br>
-                    <strong>Quantifiable Achievements:</strong> ${data.quantifiable_pct}% of bullet points have numbers/metrics<br>
-                    <strong>Action Verb Usage:</strong> ${data.action_verb_pct}% of words are action verbs<br>
-                    <strong>Repeated Words:</strong> ${Object.entries(data.repeated_words).map(([word, freq]) => `${word} (${freq} times)`).join(', ') || 'None'}<br>
-                    <strong>Buzzwords Found:</strong> ${data.buzzwords_found.join(', ') || 'None'}<br>
-                    <strong>Filler Words Found:</strong> ${data.filler_found.join(', ') || 'None'}<br>
-                `;
-                if (data.grammar_errors.length > 0) {
-                    botMessage += `<strong>Grammar/Spelling Errors:</strong><ul>${data.grammar_errors.map(err => `<li>${err.message} in '${err.context.slice(0, 50)}...' (suggestions: ${err.replacements.join(', ')})</li>`).join('')}</ul><br>`;
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.detail || 'Failed to process resume and JD.');
                 }
-                if (data.ats_issues.length > 0) {
-                    botMessage += `<strong>ATS Issues:</strong><ul>${data.ats_issues.map(s => `<li>${s}</li>`).join('')}</ul><br>`;
+
+                const result = await response.json();
+                lastMatchResult = result;
+
+                if (result.error) {
+                    addMessage('bot', `Error: ${result.details}`);
+                    uploadProgress.style.width = '0%';
+                    return;
                 }
-                if (data.ats_suggestions.length > 0) {
-                    botMessage += `<strong>ATS Suggestions:</strong><ul>${data.ats_suggestions.map(s => `<li>${s}</li>`).join('')}</ul><br>`;
+
+                let resultHtml = '<h3>Analysis Results</h3>';
+                resultHtml += `<p><strong>Similarity Score:</strong> ${result.similarity_score.toFixed(2)}%</p>`;
+                resultHtml += `<p><strong>ATS Score:</strong> ${result.ats_score.toFixed(2)}%</p>`;
+                resultHtml += `<p><strong>Overall Score:</strong> ${result.overall_score.toFixed(2)}%</p>`;
+                resultHtml += '<h3>Skills</h3>';
+                resultHtml += '<ul>';
+                resultHtml += `<li><strong>Matched Skills:</strong> ${result.matched_keywords.join(', ') || 'None'}</li>`;
+                resultHtml += `<li><strong>Resume Skills:</strong> ${result.resume_skills.join(', ') || 'None'}</li>`;
+                resultHtml += `<li><strong>JD Skills:</strong> ${result.jd_skills.join(', ') || 'None'}</li>`;
+                resultHtml += '</ul>';
+                resultHtml += '<h3>Skills by Resume Section</h3>';
+                resultHtml += '<ul>';
+                for (const [section, skills] of Object.entries(result.resume_skills_by_section)) {
+                    resultHtml += `<li><strong>${section}:</strong> ${skills.join(', ') || 'No skills detected'}</li>`;
                 }
-                if (data.suggestions.length > 0) {
-                    botMessage += `<strong>General Suggestions:</strong><ul>${data.suggestions.map(s => `<li>${s}</li>`).join('')}</ul><br>`;
+                resultHtml += '</ul>';
+                resultHtml += '<h3>ATS Issues</h3>';
+                resultHtml += `<ul>${result.ats_issues.map(issue => `<li>${issue}</li>`).join('') || '<li>None</li>'}</ul>`;
+                resultHtml += '<h3>Suggestions</h3>';
+                resultHtml += `<ul>${result.suggestions.map(sug => `<li>${sug}</li>`).join('') || '<li>None</li>'}</ul>`;
+                resultHtml += '<h3>Grammar Errors</h3>';
+                resultHtml += `<ul>${result.grammar_errors.map(err => `<li>${err.message} (Context: ${err.context})</li>`).join('') || '<li>None</li>'}</ul>`;
+                resultHtml += `<p><strong>Quantifiable Achievements:</strong> ${result.quantifiable_pct.toFixed(2)}%</p>`;
+                resultHtml += `<p><strong>Action Verbs:</strong> ${result.action_verb_pct.toFixed(2)}%</p>`;
+
+                addMessage('bot', resultHtml);
+                uploadProgress.style.width = '0%';
+                if (result.resume_skills.length > 0) {
+                    addMessage('bot', 'Any skills incorrectly identified? Enter them (comma-separated) or type "no" to continue.');
+                    awaitingFeedback = true;
+                    userInput.placeholder = 'Enter incorrect skills (e.g., skill1, skill2) or "no"';
+                } else {
+                    addMessage('bot', 'No skills detected in resume. Ready for a new match? Please upload a resume to start.');
+                    resumeFile = null;
+                    resumeInput.value = '';
+                    userInput.placeholder = 'Type your message...';
                 }
-                botMessage += `<strong>Rewrite Suggestions for Bullet Points:</strong><ul>${data.rewrite_suggestions.map(s => `<li>${s}</li>`).join('')}</ul><br>`;
-                botMessage += `<strong>Suggested Hard Skills:</strong> ${data.hard_skills_suggestions.join(', ') || 'None'}<br>`;
-                botMessage += `<strong>Suggested Soft Skills:</strong> ${data.soft_skills_suggestions.join(', ') || 'None'}<br>`;
-                addMessage('bot', botMessage);
-                addMessage('bot', `
-                    <div class="feedback-prompt">
-                        <strong>Review Extracted Skills:</strong><br>
-                        <strong>Resume Skills:</strong> ${data.resume_skills.join(', ') || 'None'}<br>
-                        <strong>Job Description Skills:</strong> ${data.jd_skills.join(', ') || 'None'}<br>
-                        <strong>Matched Skills:</strong> ${data.matched_keywords.join(', ') || 'None'}<br>
-                        <em>Tip: Enter skills to remove (e.g., "hyderabad, university") and/or suggest missing skills (e.g., "python, sql") separated by "|". Example: "hyderabad, university|python, sql". Leave blank to skip.</em><br>
-                        Type your feedback for skills to remove and/or suggest (format: remove1, remove2|suggest1, suggest2) or press Enter to skip.
-                    </div>
-                `);
-                userInput.placeholder = 'Type your feedback';
-                awaitingFeedback = true;
             } catch (error) {
                 addMessage('bot', `Error: ${error.message}`);
+                uploadProgress.style.width = '0%';
             }
-        } else if (awaitingFeedback) {
-            const inputParts = message.split('|').map(s => s.trim());
-            const removedSkills = inputParts[0] ? inputParts[0].split(',').map(s => s.trim()).filter(s => s) : [];
-            const suggestedSkills = inputParts[1] ? inputParts[1].split(',').map(s => s.trim()).filter(s => s) : [];
-            userInput.value = '';
-            if (removedSkills.length > 0 || suggestedSkills.length > 0) {
-                try {
-                    const response = await fetch('/api/feedback', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ removed_skills: removedSkills, suggested_skills: suggestedSkills })
-                    });
-                    if (!response.ok) throw new Error('Error submitting feedback');
-                    const data = await response.json();
-                    addMessage('bot', data.message);
-                } catch (error) {
-                    addMessage('bot', `Error: ${error.message}`);
-                }
-            } else {
-                addMessage('bot', 'No skills removed or suggested.');
-            }
-            // Reset state completely to allow new resume upload
-            awaitingFeedback = false;
-            resumeFile = null;
-            resumeInput.value = ''; // Clear file input to allow new upload
-            userInput.placeholder = 'Type your message...';
-            addMessage('bot', 'Ready for a new match? Please upload a resume to start.');
         }
     });
+
+    async function sendFeedback(removedSkills) {
+        if (removedSkills.length === 1 && removedSkills[0].toLowerCase() === 'no') {
+            addMessage('user', 'no');
+            awaitingFeedback = false;
+            resumeFile = null;
+            resumeInput.value = '';
+            userInput.placeholder = 'Type your message...';
+            addMessage('bot', 'Ready for a new match? Please upload a resume to start.');
+            return;
+        }
+        
+        const feedbackPayload = {
+            removed_skills: removedSkills
+        };
+
+        try {
+            const response = await fetch('/api/feedback', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(feedbackPayload)
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.detail || 'Failed to submit feedback.');
+            }
+
+            const result = await response.json();
+            addMessage('bot', result.message);
+            awaitingFeedback = false;
+            resumeFile = null;
+            resumeInput.value = '';
+            userInput.placeholder = 'Type your message...';
+            addMessage('bot', 'Ready for a new match? Please upload a resume to start.');
+        } catch (error) {
+            addMessage('bot', `Error: ${error.message}`);
+        }
+    }
 
     // Handle Enter key press
     userInput.addEventListener('keypress', (e) => {

@@ -36,10 +36,13 @@ async def match_resume(
             "buzzwords_found": result["buzzwords_found"],
             "filler_found": result["filler_found"],
             "rewrite_suggestions": result["rewrite_suggestions"],
-            "hard_skills_suggestions": result["hard_skills_suggestions"],
-            "soft_skills_suggestions": result["soft_skills_suggestions"],
             "sections_detected": result["sections_detected"],
-            "suggestions": result["suggestions"]
+            "suggestions": result["suggestions"],
+            "resume_hard_skills": result["resume_hard_skills"],
+            "resume_soft_skills": result["resume_soft_skills"],
+            "jd_hard_skills": result["jd_hard_skills"],
+            "jd_soft_skills": result["jd_soft_skills"],
+            "resume_skills_by_section": result["resume_skills_by_section"]
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
